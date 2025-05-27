@@ -579,7 +579,7 @@ async def websocket_market_feed(websocket: WebSocket, asset: str):
         connection_manager.disconnect(websocket)
     except Exception as e:
         logging.error(f"WebSocket error: {e}")
-        await websocket.close()
+        connection_manager.disconnect(websocket)
 
 # Include the router in the main app
 app.include_router(api_router)
