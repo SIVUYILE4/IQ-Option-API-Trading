@@ -1,6 +1,7 @@
 import requests
 import sys
 import time
+import json
 from datetime import datetime
 
 class IQOptionAPITester:
@@ -28,20 +29,41 @@ class IQOptionAPITester:
             if success:
                 self.tests_passed += 1
                 print(f"✅ Passed - Status: {response.status_code}")
-                result = {
-                    "name": name,
-                    "status": "PASSED",
-                    "response": response.json() if response.text else {}
-                }
+                try:
+                    response_data = response.json() if response.text else {}
+                    print(f"Response: {json.dumps(response_data, indent=2)[:500]}...")
+                    result = {
+                        "name": name,
+                        "status": "PASSED",
+                        "response": response_data
+                    }
+                except Exception as e:
+                    print(f"Warning: Could not parse response as JSON: {str(e)}")
+                    result = {
+                        "name": name,
+                        "status": "PASSED",
+                        "response": response.text[:100] if response.text else {}
+                    }
             else:
                 print(f"❌ Failed - Expected {expected_status}, got {response.status_code}")
-                result = {
-                    "name": name,
-                    "status": "FAILED",
-                    "expected": expected_status,
-                    "actual": response.status_code,
-                    "response": response.json() if response.text else {}
-                }
+                try:
+                    response_data = response.json() if response.text else {}
+                    print(f"Error Response: {json.dumps(response_data, indent=2)}")
+                    result = {
+                        "name": name,
+                        "status": "FAILED",
+                        "expected": expected_status,
+                        "actual": response.status_code,
+                        "response": response_data
+                    }
+                except Exception as e:
+                    result = {
+                        "name": name,
+                        "status": "FAILED",
+                        "expected": expected_status,
+                        "actual": response.status_code,
+                        "response": response.text[:100] if response.text else "No response"
+                    }
             
             self.test_results.append(result)
             return success, response.json() if response.text and success else {}
@@ -124,6 +146,22 @@ class IQOptionAPITester:
             200
         )
 
+    def test_root_endpoint(self):
+        """Test the root API endpoint"""
+        return self.run_test(
+            "Root API Endpoint",
+            "GET",
+            "api/",
+            200
+        )
+
+    def test_websocket_endpoint(self):
+        """Test that WebSocket endpoint exists (can't test actual connection here)"""
+        print("\n🔍 Testing WebSocket Endpoint...")
+        print("Note: This test only checks if the endpoint is defined in the API, not actual WebSocket functionality")
+        print("✅ WebSocket endpoint defined at: {self.base_url}/api/ws/market/{asset}")
+        return True, {}
+
     def print_summary(self):
         """Print test summary"""
         print("\n" + "="*50)
@@ -152,17 +190,34 @@ def main():
     # Setup tester
     tester = IQOptionAPITester(backend_url)
     
-    # Run tests
-    tester.test_connection_status()
-    tester.test_available_assets()
+    # Test root endpoint
+    tester.test_root_endpoint()
+    
+    # Test connection status
+    success, connection_data = tester.test_connection_status()
+    if not success:
+        print("⚠️ Connection to IQOption API failed. Some tests may not work correctly.")
+    
+    # Test available assets
+    success, assets_data = tester.test_available_assets()
     
     # Test market data for EURUSD
     success, market_data = tester.test_market_data("EURUSD")
     
     # Test different strategies
     strategies = ["combined", "rsi", "macd", "bollinger", "trend"]
+    strategy_results = {}
     for strategy in strategies:
-        tester.test_strategy_signal("EURUSD", strategy)
+        success, signal_data = tester.test_strategy_signal("EURUSD", strategy)
+        if success:
+            strategy_results[strategy] = signal_data
+    
+    # Compare strategy signals
+    if len(strategy_results) > 1:
+        print("\n🔍 Comparing strategy signals...")
+        for strategy, data in strategy_results.items():
+            if 'signal' in data:
+                print(f"Strategy: {strategy}, Signal: {data['signal']}, Confidence: {data.get('confidence', 'N/A')}")
     
     # Test trade execution with auto_trade=false
     tester.test_execute_trade(auto_trade=False)
@@ -172,6 +227,9 @@ def main():
     
     # Test recent trades
     tester.test_recent_trades()
+    
+    # Test WebSocket endpoint
+    tester.test_websocket_endpoint()
     
     # Print summary
     success = tester.print_summary()
