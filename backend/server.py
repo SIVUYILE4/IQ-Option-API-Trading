@@ -140,6 +140,20 @@ class IQOptionService:
             try:
                 end_time = time.time()
                 candles = self.api.get_candles(asset, duration, count, end_time)
+                
+                # Convert dict format to list format for easier processing
+                if candles and isinstance(candles[0], dict):
+                    formatted_candles = []
+                    for candle in candles:
+                        formatted_candles.append([
+                            candle['from'],  # timestamp
+                            candle['open'],  # open
+                            candle['max'],   # high
+                            candle['min'],   # low
+                            candle['close'], # close
+                            candle['volume'] # volume
+                        ])
+                    return formatted_candles
                 return candles
             except Exception as e:
                 logging.error(f"Error getting candles for {asset}: {e}")
