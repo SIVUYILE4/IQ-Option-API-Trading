@@ -1,0 +1,62 @@
+Collecting iqoptionapi
+  Downloading iqoptionapi-0.5.tar.gz (7.1 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting websockets
+  Downloading websockets-15.0.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (6.8 kB)
+Collecting apscheduler
+  Downloading APScheduler-3.11.0-py3-none-any.whl.metadata (6.4 kB)
+Collecting scikit-learn
+  Downloading scikit_learn-1.6.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (18 kB)
+Collecting ta
+  Downloading ta-0.11.0.tar.gz (25 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting plotly
+  Downloading plotly-6.1.1-py3-none-any.whl.metadata (6.9 kB)
+Collecting scipy
+  Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 3.6 MB/s eta 0:00:00
+Collecting tzlocal>=3.0 (from apscheduler)
+  Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: numpy>=1.19.5 in /root/.venv/lib/python3.11/site-packages (from scikit-learn) (2.2.6)
+Collecting joblib>=1.2.0 (from scikit-learn)
+  Downloading joblib-1.5.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: pandas in /root/.venv/lib/python3.11/site-packages (from ta) (2.2.3)
+Collecting narwhals>=1.15.1 (from plotly)
+  Downloading narwhals-1.41.0-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: packaging in /root/.venv/lib/python3.11/site-packages (from plotly) (25.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /root/.venv/lib/python3.11/site-packages (from pandas->ta) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /root/.venv/lib/python3.11/site-packages (from pandas->ta) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /root/.venv/lib/python3.11/site-packages (from pandas->ta) (2025.2)
+Requirement already satisfied: six>=1.5 in /root/.venv/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas->ta) (1.17.0)
+Downloading websockets-15.0.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (182 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.9/182.9 kB 10.4 MB/s eta 0:00:00
+Downloading APScheduler-3.11.0-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.0/64.0 kB 5.7 MB/s eta 0:00:00
+Downloading scikit_learn-1.6.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (12.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 102.9 MB/s eta 0:00:00
+Downloading plotly-6.1.1-py3-none-any.whl (16.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.1/16.1 MB 53.3 MB/s eta 0:00:00
+Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (35.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 49.4 MB/s eta 0:00:00
+Downloading joblib-1.5.1-py3-none-any.whl (307 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.7/307.7 kB 28.3 MB/s eta 0:00:00
+Downloading narwhals-1.41.0-py3-none-any.whl (357 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 358.0/358.0 kB 37.6 MB/s eta 0:00:00
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Building wheels for collected packages: iqoptionapi, ta
+  Building wheel for iqoptionapi (setup.py): started
+  Building wheel for iqoptionapi (setup.py): finished with status 'done'
+  Created wheel for iqoptionapi: filename=iqoptionapi-0.5-py3-none-any.whl size=17769 sha256=c200d3740e1df7a4bb8a962d8e714b46e172d95bcdafeaf4e46e544bf92c1130
+  Stored in directory: /root/.cache/pip/wheels/8f/a5/c0/9c68714fd107cbbe199d165472a45104caec97e85e35c60c5e
+  Building wheel for ta (setup.py): started
+  Building wheel for ta (setup.py): finished with status 'done'
+  Created wheel for ta: filename=ta-0.11.0-py3-none-any.whl size=29413 sha256=77a563bf056e1772e4572eaf8c33ff1dc1f52f9993552e34fdd44b7ece056564
+  Stored in directory: /root/.cache/pip/wheels/a1/d7/29/7781cc5eb9a3659d032d7d15bdd0f49d07d2b24fec29f44bc4
+Successfully built iqoptionapi ta
+Installing collected packages: iqoptionapi, websockets, tzlocal, threadpoolctl, scipy, narwhals, joblib, scikit-learn, plotly, apscheduler, ta
+Successfully installed apscheduler-3.11.0 iqoptionapi-0.5 joblib-1.5.1 narwhals-1.41.0 plotly-6.1.1 scikit-learn-1.6.1 scipy-1.15.3 ta-0.11.0 threadpoolctl-3.6.0 tzlocal-5.3.1 websockets-15.0.1
