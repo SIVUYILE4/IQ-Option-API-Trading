@@ -169,12 +169,31 @@ class IQOptionService:
         """Execute a trade"""
         if await self.connect():
             try:
-                # Correct parameter order: price, ACTIVES, ACTION, expirations
+                # Try multiple trading methods
+                
+                # Method 1: Traditional binary options
                 check, order_id = self.api.buy(amount, asset, direction, duration)
                 if check:
-                    return {"success": True, "order_id": order_id}
-                else:
-                    return {"success": False, "error": str(order_id)}
+                    return {"success": True, "order_id": order_id, "method": "binary"}
+                
+                # Method 2: Digital options if binary fails
+                try:
+                    digital_result = self.api.buy_digital_spot(asset, amount, direction, duration)
+                    if digital_result and digital_result[0]:
+                        return {"success": True, "order_id": digital_result[1], "method": "digital"}
+                except Exception as digital_error:
+                    logging.info(f"Digital options not available: {digital_error}")
+                
+                # Method 3: Try with different durations
+                for alt_duration in [2, 5, 15]:
+                    try:
+                        check, alt_order_id = self.api.buy(amount, asset, direction, alt_duration)
+                        if check:
+                            return {"success": True, "order_id": alt_order_id, "method": f"binary_{alt_duration}m"}
+                    except:
+                        continue
+                
+                return {"success": False, "error": str(order_id)}
             except Exception as e:
                 logging.error(f"Error executing trade: {e}")
                 return {"success": False, "error": str(e)}
