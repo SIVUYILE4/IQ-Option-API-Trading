@@ -200,7 +200,11 @@ class MLTradingSystem:
         # Drop original OHLCV columns and non-feature columns
         feature_columns = [col for col in features_df.columns if col not in ['open', 'high', 'low', 'close', 'volume', 'timestamp']]
         
-        return features_df[feature_columns].fillna(method='ffill').fillna(method='bfill')
+        result_df = features_df[feature_columns].fillna(method='ffill').fillna(method='bfill')
+        # Fill any remaining NaN with 0
+        result_df = result_df.fillna(0)
+        
+        return result_df
     
     def create_labels(self, df, lookahead=1, threshold=0.0001):
         """Create labels for binary classification (next candle direction)"""
