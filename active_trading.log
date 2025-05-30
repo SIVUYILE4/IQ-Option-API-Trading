@@ -1,0 +1,582 @@
+2025-05-30 14:39:36,666 - INFO - 🚀 STARTING ACTIVE ML TRADING BOT
+2025-05-30 14:39:36,666 - INFO - 🤖 Advanced ML strategies with market status detection
+2025-05-30 14:39:36,666 - INFO - 💰 Trade Amount: $1.0
+2025-05-30 14:39:36,666 - INFO - 📊 Confidence Threshold: 70%
+2025-05-30 14:39:36,669 - INFO - 🎯 Assets: EURUSD, GBPUSD, USDJPY, BTCUSD, ETHUSD
+2025-05-30 14:39:36,669 - INFO - ======================================================================
+2025-05-30 14:39:36,848 - INFO - 🧠 Active ML Scan #1
+2025-05-30 14:39:36,848 - INFO - 💰 Balance: $37.07
+2025-05-30 14:39:37,261 - INFO - 🤖 ML OPPORTUNITY #1
+2025-05-30 14:39:37,261 - INFO -    Asset: EURUSD
+2025-05-30 14:39:37,261 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:39:37,261 - INFO -    Signal: PUT
+2025-05-30 14:39:37,261 - INFO -    Confidence: 95.0%
+2025-05-30 14:39:37,261 - INFO -    ML Probability: 24.6%
+2025-05-30 14:39:37,976 - WARNING - ❌ Trade execution failed
+2025-05-30 14:39:40,347 - INFO - 🤖 ML OPPORTUNITY #2
+2025-05-30 14:39:40,347 - INFO -    Asset: EURUSD
+2025-05-30 14:39:40,347 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:39:40,347 - INFO -    Signal: PUT
+2025-05-30 14:39:40,347 - INFO -    Confidence: 95.0%
+2025-05-30 14:39:40,347 - INFO -    ML Probability: 24.6%
+2025-05-30 14:39:41,095 - WARNING - ❌ Trade execution failed
+2025-05-30 14:39:43,879 - INFO - 🤖 ML OPPORTUNITY #3
+2025-05-30 14:39:43,879 - INFO -    Asset: USDJPY
+2025-05-30 14:39:43,879 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:39:43,879 - INFO -    Signal: PUT
+2025-05-30 14:39:43,879 - INFO -    Confidence: 93.5%
+2025-05-30 14:39:43,879 - INFO -    ML Probability: 50.0%
+2025-05-30 14:39:44,330 - WARNING - ❌ Trade execution failed
+2025-05-30 14:39:46,546 - INFO - 🤖 ML OPPORTUNITY #4
+2025-05-30 14:39:46,546 - INFO -    Asset: USDJPY
+2025-05-30 14:39:46,547 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:39:46,547 - INFO -    Signal: PUT
+2025-05-30 14:39:46,547 - INFO -    Confidence: 85.0%
+2025-05-30 14:39:46,547 - INFO -    ML Probability: 50.0%
+2025-05-30 14:39:46,984 - WARNING - ❌ Trade execution failed
+2025-05-30 14:39:49,993 - INFO - 📊 Session Stats: 4 signals, 4 attempts, 0 executed
+2025-05-30 14:39:49,993 - INFO - --------------------------------------------------
+2025-05-30 14:40:20,199 - INFO - 🧠 Active ML Scan #2
+2025-05-30 14:40:20,199 - INFO - 💰 Balance: $37.07
+2025-05-30 14:40:20,595 - INFO - 🤖 ML OPPORTUNITY #5
+2025-05-30 14:40:20,595 - INFO -    Asset: EURUSD
+2025-05-30 14:40:20,595 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:40:20,595 - INFO -    Signal: PUT
+2025-05-30 14:40:20,595 - INFO -    Confidence: 95.0%
+2025-05-30 14:40:20,595 - INFO -    ML Probability: 24.5%
+2025-05-30 14:40:21,181 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:23,553 - INFO - 🤖 ML OPPORTUNITY #6
+2025-05-30 14:40:23,553 - INFO -    Asset: EURUSD
+2025-05-30 14:40:23,553 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:40:23,553 - INFO -    Signal: PUT
+2025-05-30 14:40:23,553 - INFO -    Confidence: 95.0%
+2025-05-30 14:40:23,553 - INFO -    ML Probability: 24.5%
+2025-05-30 14:40:24,123 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:26,343 - INFO - 🤖 ML OPPORTUNITY #7
+2025-05-30 14:40:26,343 - INFO -    Asset: GBPUSD
+2025-05-30 14:40:26,343 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:40:26,343 - INFO -    Signal: CALL
+2025-05-30 14:40:26,343 - INFO -    Confidence: 93.5%
+2025-05-30 14:40:26,343 - INFO -    ML Probability: 50.0%
+2025-05-30 14:40:26,771 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:28,961 - INFO - 🤖 ML OPPORTUNITY #8
+2025-05-30 14:40:28,961 - INFO -    Asset: GBPUSD
+2025-05-30 14:40:28,961 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:40:28,961 - INFO -    Signal: CALL
+2025-05-30 14:40:28,961 - INFO -    Confidence: 85.0%
+2025-05-30 14:40:28,961 - INFO -    ML Probability: 50.0%
+2025-05-30 14:40:29,447 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:31,650 - INFO - 🤖 ML OPPORTUNITY #9
+2025-05-30 14:40:31,650 - INFO -    Asset: USDJPY
+2025-05-30 14:40:31,651 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:40:31,651 - INFO -    Signal: PUT
+2025-05-30 14:40:31,651 - INFO -    Confidence: 93.5%
+2025-05-30 14:40:31,651 - INFO -    ML Probability: 50.0%
+2025-05-30 14:40:32,279 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:34,496 - INFO - 🤖 ML OPPORTUNITY #10
+2025-05-30 14:40:34,496 - INFO -    Asset: USDJPY
+2025-05-30 14:40:34,496 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:40:34,496 - INFO -    Signal: PUT
+2025-05-30 14:40:34,496 - INFO -    Confidence: 85.0%
+2025-05-30 14:40:34,496 - INFO -    ML Probability: 50.0%
+2025-05-30 14:40:35,130 - WARNING - ❌ Trade execution failed
+2025-05-30 14:40:38,046 - INFO - 📊 Session Stats: 10 signals, 10 attempts, 0 executed
+2025-05-30 14:40:38,046 - INFO - --------------------------------------------------
+2025-05-30 14:41:08,228 - INFO - 🧠 Active ML Scan #3
+2025-05-30 14:41:08,228 - INFO - 💰 Balance: $37.07
+2025-05-30 14:41:11,033 - INFO - 🤖 No high-confidence ML opportunities found this scan
+2025-05-30 14:41:11,033 - INFO - 📊 Session Stats: 10 signals, 10 attempts, 0 executed
+2025-05-30 14:41:11,033 - INFO - --------------------------------------------------
+2025-05-30 14:41:41,219 - INFO - 🧠 Active ML Scan #4
+2025-05-30 14:41:41,219 - INFO - 💰 Balance: $17.07
+2025-05-30 14:41:41,637 - INFO - 🤖 ML OPPORTUNITY #11
+2025-05-30 14:41:41,637 - INFO -    Asset: EURUSD
+2025-05-30 14:41:41,637 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:41:41,637 - INFO -    Signal: PUT
+2025-05-30 14:41:41,637 - INFO -    Confidence: 95.0%
+2025-05-30 14:41:41,637 - INFO -    ML Probability: 23.8%
+2025-05-30 14:41:42,136 - WARNING - ❌ Trade execution failed
+2025-05-30 14:41:44,494 - INFO - 🤖 ML OPPORTUNITY #12
+2025-05-30 14:41:44,494 - INFO -    Asset: EURUSD
+2025-05-30 14:41:44,494 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:41:44,494 - INFO -    Signal: PUT
+2025-05-30 14:41:44,494 - INFO -    Confidence: 95.0%
+2025-05-30 14:41:44,494 - INFO -    ML Probability: 24.2%
+2025-05-30 14:41:44,985 - WARNING - ❌ Trade execution failed
+2025-05-30 14:41:48,932 - INFO - 📊 Session Stats: 12 signals, 12 attempts, 0 executed
+2025-05-30 14:41:48,932 - INFO - --------------------------------------------------
+2025-05-30 14:42:19,134 - INFO - 🧠 Active ML Scan #5
+2025-05-30 14:42:19,134 - INFO - 💰 Balance: $35.57
+2025-05-30 14:42:19,447 - INFO - 🤖 ML OPPORTUNITY #13
+2025-05-30 14:42:19,447 - INFO -    Asset: EURUSD
+2025-05-30 14:42:19,447 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:42:19,447 - INFO -    Signal: PUT
+2025-05-30 14:42:19,447 - INFO -    Confidence: 95.0%
+2025-05-30 14:42:19,447 - INFO -    ML Probability: 24.3%
+2025-05-30 14:42:20,079 - WARNING - ❌ Trade execution failed
+2025-05-30 14:42:22,373 - INFO - 🤖 ML OPPORTUNITY #14
+2025-05-30 14:42:22,373 - INFO -    Asset: EURUSD
+2025-05-30 14:42:22,373 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:42:22,373 - INFO -    Signal: PUT
+2025-05-30 14:42:22,373 - INFO -    Confidence: 95.0%
+2025-05-30 14:42:22,373 - INFO -    ML Probability: 24.4%
+2025-05-30 14:42:23,133 - WARNING - ❌ Trade execution failed
+2025-05-30 14:42:27,159 - INFO - 📊 Session Stats: 14 signals, 14 attempts, 0 executed
+2025-05-30 14:42:27,159 - INFO - --------------------------------------------------
+2025-05-30 14:42:57,385 - INFO - 🧠 Active ML Scan #6
+2025-05-30 14:42:57,385 - INFO - 💰 Balance: $35.57
+2025-05-30 14:42:57,688 - INFO - 🤖 ML OPPORTUNITY #15
+2025-05-30 14:42:57,688 - INFO -    Asset: EURUSD
+2025-05-30 14:42:57,688 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:42:57,688 - INFO -    Signal: PUT
+2025-05-30 14:42:57,688 - INFO -    Confidence: 95.0%
+2025-05-30 14:42:57,688 - INFO -    ML Probability: 24.5%
+2025-05-30 14:42:58,275 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:00,646 - INFO - 🤖 ML OPPORTUNITY #16
+2025-05-30 14:43:00,646 - INFO -    Asset: EURUSD
+2025-05-30 14:43:00,646 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:43:00,646 - INFO -    Signal: PUT
+2025-05-30 14:43:00,646 - INFO -    Confidence: 95.0%
+2025-05-30 14:43:00,646 - INFO -    ML Probability: 24.4%
+2025-05-30 14:43:01,301 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:05,121 - INFO - 🤖 ML OPPORTUNITY #17
+2025-05-30 14:43:05,121 - INFO -    Asset: ETHUSD
+2025-05-30 14:43:05,121 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:43:05,121 - INFO -    Signal: PUT
+2025-05-30 14:43:05,121 - INFO -    Confidence: 88.0%
+2025-05-30 14:43:05,121 - INFO -    ML Probability: 50.0%
+2025-05-30 14:43:05,554 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:07,747 - INFO - 🤖 ML OPPORTUNITY #18
+2025-05-30 14:43:07,747 - INFO -    Asset: ETHUSD
+2025-05-30 14:43:07,747 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:43:07,747 - INFO -    Signal: PUT
+2025-05-30 14:43:07,747 - INFO -    Confidence: 80.0%
+2025-05-30 14:43:07,747 - INFO -    ML Probability: 50.0%
+2025-05-30 14:43:08,195 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:10,197 - INFO - 📊 Session Stats: 18 signals, 18 attempts, 0 executed
+2025-05-30 14:43:10,197 - INFO - --------------------------------------------------
+2025-05-30 14:43:40,370 - INFO - 🧠 Active ML Scan #7
+2025-05-30 14:43:40,370 - INFO - 💰 Balance: $25.57
+2025-05-30 14:43:40,779 - INFO - 🤖 ML OPPORTUNITY #19
+2025-05-30 14:43:40,779 - INFO -    Asset: EURUSD
+2025-05-30 14:43:40,779 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:43:40,779 - INFO -    Signal: PUT
+2025-05-30 14:43:40,779 - INFO -    Confidence: 95.0%
+2025-05-30 14:43:40,779 - INFO -    ML Probability: 24.5%
+2025-05-30 14:43:41,487 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:43,820 - INFO - 🤖 ML OPPORTUNITY #20
+2025-05-30 14:43:43,820 - INFO -    Asset: EURUSD
+2025-05-30 14:43:43,820 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:43:43,820 - INFO -    Signal: PUT
+2025-05-30 14:43:43,820 - INFO -    Confidence: 95.0%
+2025-05-30 14:43:43,820 - INFO -    ML Probability: 24.5%
+2025-05-30 14:43:44,320 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:47,923 - INFO - 🤖 ML OPPORTUNITY #21
+2025-05-30 14:43:47,933 - INFO -    Asset: ETHUSD
+2025-05-30 14:43:47,933 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:43:47,934 - INFO -    Signal: PUT
+2025-05-30 14:43:47,934 - INFO -    Confidence: 88.0%
+2025-05-30 14:43:47,935 - INFO -    ML Probability: 50.0%
+2025-05-30 14:43:48,589 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:50,810 - INFO - 🤖 ML OPPORTUNITY #22
+2025-05-30 14:43:50,810 - INFO -    Asset: ETHUSD
+2025-05-30 14:43:50,810 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:43:50,810 - INFO -    Signal: PUT
+2025-05-30 14:43:50,810 - INFO -    Confidence: 80.0%
+2025-05-30 14:43:50,810 - INFO -    ML Probability: 50.0%
+2025-05-30 14:43:51,285 - WARNING - ❌ Trade execution failed
+2025-05-30 14:43:53,286 - INFO - 📊 Session Stats: 22 signals, 22 attempts, 0 executed
+2025-05-30 14:43:53,287 - INFO - --------------------------------------------------
+2025-05-30 14:44:23,457 - INFO - 🧠 Active ML Scan #8
+2025-05-30 14:44:23,458 - INFO - 💰 Balance: $25.57
+2025-05-30 14:44:23,829 - INFO - 🤖 ML OPPORTUNITY #23
+2025-05-30 14:44:23,829 - INFO -    Asset: EURUSD
+2025-05-30 14:44:23,829 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:44:23,829 - INFO -    Signal: PUT
+2025-05-30 14:44:23,829 - INFO -    Confidence: 95.0%
+2025-05-30 14:44:23,829 - INFO -    ML Probability: 39.4%
+2025-05-30 14:44:24,279 - WARNING - ❌ Trade execution failed
+2025-05-30 14:44:26,672 - INFO - 🤖 ML OPPORTUNITY #24
+2025-05-30 14:44:26,672 - INFO -    Asset: EURUSD
+2025-05-30 14:44:26,672 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:44:26,672 - INFO -    Signal: PUT
+2025-05-30 14:44:26,672 - INFO -    Confidence: 91.3%
+2025-05-30 14:44:26,672 - INFO -    ML Probability: 39.3%
+2025-05-30 14:44:27,222 - WARNING - ❌ Trade execution failed
+2025-05-30 14:44:31,019 - INFO - 📊 Session Stats: 24 signals, 24 attempts, 0 executed
+2025-05-30 14:44:31,019 - INFO - --------------------------------------------------
+2025-05-30 14:45:01,204 - INFO - 🧠 Active ML Scan #9
+2025-05-30 14:45:01,204 - INFO - 💰 Balance: $25.57
+2025-05-30 14:45:01,550 - INFO - 🤖 ML OPPORTUNITY #25
+2025-05-30 14:45:01,550 - INFO -    Asset: EURUSD
+2025-05-30 14:45:01,550 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:45:01,550 - INFO -    Signal: PUT
+2025-05-30 14:45:01,550 - INFO -    Confidence: 95.0%
+2025-05-30 14:45:01,550 - INFO -    ML Probability: 24.5%
+2025-05-30 14:45:02,421 - WARNING - ❌ Trade execution failed
+2025-05-30 14:45:04,747 - INFO - 🤖 ML OPPORTUNITY #26
+2025-05-30 14:45:04,747 - INFO -    Asset: EURUSD
+2025-05-30 14:45:04,747 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:45:04,747 - INFO -    Signal: CALL
+2025-05-30 14:45:04,747 - INFO -    Confidence: 80.0%
+2025-05-30 14:45:04,747 - INFO -    ML Probability: 53.8%
+2025-05-30 14:45:05,539 - WARNING - ❌ Trade execution failed
+2025-05-30 14:45:09,669 - INFO - 
+📊 ML TRADING BOT PERFORMANCE REPORT:
+══════════════════════════════════════
+🤖 Signals Generated: 20
+📈 CALL Signals: 3
+📉 PUT Signals: 17
+🎯 Average Confidence: 90.7%
+✅ Trades Executed: 0
+⏸️  Market Closed: 0
+🔄 Execution Rate: 0.0% (when markets open)
+        
+2025-05-30 14:45:09,669 - INFO - 📊 Session Stats: 26 signals, 26 attempts, 0 executed
+2025-05-30 14:45:09,669 - INFO - --------------------------------------------------
+2025-05-30 14:45:39,903 - INFO - 🧠 Active ML Scan #10
+2025-05-30 14:45:39,903 - INFO - 💰 Balance: $25.57
+2025-05-30 14:45:40,296 - INFO - 🤖 ML OPPORTUNITY #27
+2025-05-30 14:45:40,296 - INFO -    Asset: EURUSD
+2025-05-30 14:45:40,296 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:45:40,296 - INFO -    Signal: PUT
+2025-05-30 14:45:40,296 - INFO -    Confidence: 77.6%
+2025-05-30 14:45:40,296 - INFO -    ML Probability: 24.6%
+2025-05-30 14:45:40,933 - WARNING - ❌ Trade execution failed
+2025-05-30 14:45:43,230 - INFO - 🤖 ML OPPORTUNITY #28
+2025-05-30 14:45:43,231 - INFO -    Asset: EURUSD
+2025-05-30 14:45:43,231 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:45:43,231 - INFO -    Signal: PUT
+2025-05-30 14:45:43,231 - INFO -    Confidence: 70.6%
+2025-05-30 14:45:43,231 - INFO -    ML Probability: 24.6%
+2025-05-30 14:45:43,782 - WARNING - ❌ Trade execution failed
+2025-05-30 14:45:47,878 - INFO - 📊 Session Stats: 28 signals, 28 attempts, 0 executed
+2025-05-30 14:45:47,878 - INFO - --------------------------------------------------
+2025-05-30 14:46:18,057 - INFO - 🧠 Active ML Scan #11
+2025-05-30 14:46:18,057 - INFO - 💰 Balance: $25.57
+2025-05-30 14:46:18,529 - INFO - 🤖 ML OPPORTUNITY #29
+2025-05-30 14:46:18,529 - INFO -    Asset: EURUSD
+2025-05-30 14:46:18,529 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:46:18,529 - INFO -    Signal: PUT
+2025-05-30 14:46:18,529 - INFO -    Confidence: 95.0%
+2025-05-30 14:46:18,529 - INFO -    ML Probability: 24.3%
+2025-05-30 14:46:19,228 - WARNING - ❌ Trade execution failed
+2025-05-30 14:46:21,569 - INFO - 🤖 ML OPPORTUNITY #30
+2025-05-30 14:46:21,569 - INFO -    Asset: EURUSD
+2025-05-30 14:46:21,570 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:46:21,570 - INFO -    Signal: PUT
+2025-05-30 14:46:21,570 - INFO -    Confidence: 89.9%
+2025-05-30 14:46:21,570 - INFO -    ML Probability: 24.3%
+2025-05-30 14:46:22,338 - WARNING - ❌ Trade execution failed
+2025-05-30 14:46:26,848 - INFO - 📊 Session Stats: 30 signals, 30 attempts, 0 executed
+2025-05-30 14:46:26,848 - INFO - --------------------------------------------------
+2025-05-30 14:46:57,034 - INFO - 🧠 Active ML Scan #12
+2025-05-30 14:46:57,035 - INFO - 💰 Balance: $25.57
+2025-05-30 14:46:57,435 - INFO - 🤖 ML OPPORTUNITY #31
+2025-05-30 14:46:57,436 - INFO -    Asset: EURUSD
+2025-05-30 14:46:57,436 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:46:57,436 - INFO -    Signal: PUT
+2025-05-30 14:46:57,436 - INFO -    Confidence: 95.0%
+2025-05-30 14:46:57,436 - INFO -    ML Probability: 16.6%
+2025-05-30 14:46:57,920 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:00,252 - INFO - 🤖 ML OPPORTUNITY #32
+2025-05-30 14:47:00,252 - INFO -    Asset: EURUSD
+2025-05-30 14:47:00,252 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:47:00,252 - INFO -    Signal: PUT
+2025-05-30 14:47:00,252 - INFO -    Confidence: 89.5%
+2025-05-30 14:47:00,252 - INFO -    ML Probability: 21.5%
+2025-05-30 14:47:00,745 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:03,860 - INFO - 🤖 ML OPPORTUNITY #33
+2025-05-30 14:47:03,860 - INFO -    Asset: BTCUSD
+2025-05-30 14:47:03,860 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:47:03,860 - INFO -    Signal: PUT
+2025-05-30 14:47:03,860 - INFO -    Confidence: 88.0%
+2025-05-30 14:47:03,860 - INFO -    ML Probability: 50.0%
+2025-05-30 14:47:04,489 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:06,735 - INFO - 🤖 ML OPPORTUNITY #34
+2025-05-30 14:47:06,735 - INFO -    Asset: BTCUSD
+2025-05-30 14:47:06,735 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:47:06,735 - INFO -    Signal: PUT
+2025-05-30 14:47:06,735 - INFO -    Confidence: 80.0%
+2025-05-30 14:47:06,735 - INFO -    ML Probability: 50.0%
+2025-05-30 14:47:07,338 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:09,813 - INFO - 📊 Session Stats: 34 signals, 34 attempts, 0 executed
+2025-05-30 14:47:09,813 - INFO - --------------------------------------------------
+2025-05-30 14:47:39,980 - INFO - 🧠 Active ML Scan #13
+2025-05-30 14:47:39,980 - INFO - 💰 Balance: $25.57
+2025-05-30 14:47:40,336 - INFO - 🤖 ML OPPORTUNITY #35
+2025-05-30 14:47:40,336 - INFO -    Asset: EURUSD
+2025-05-30 14:47:40,336 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:47:40,336 - INFO -    Signal: PUT
+2025-05-30 14:47:40,336 - INFO -    Confidence: 92.0%
+2025-05-30 14:47:40,336 - INFO -    ML Probability: 24.7%
+2025-05-30 14:47:40,838 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:43,167 - INFO - 🤖 ML OPPORTUNITY #36
+2025-05-30 14:47:43,167 - INFO -    Asset: EURUSD
+2025-05-30 14:47:43,167 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:47:43,167 - INFO -    Signal: PUT
+2025-05-30 14:47:43,167 - INFO -    Confidence: 89.2%
+2025-05-30 14:47:43,167 - INFO -    ML Probability: 24.5%
+2025-05-30 14:47:43,729 - WARNING - ❌ Trade execution failed
+2025-05-30 14:47:47,677 - INFO - 📊 Session Stats: 36 signals, 36 attempts, 0 executed
+2025-05-30 14:47:47,677 - INFO - --------------------------------------------------
+2025-05-30 14:48:17,883 - INFO - 🧠 Active ML Scan #14
+2025-05-30 14:48:17,883 - INFO - 💰 Balance: $25.57
+2025-05-30 14:48:18,281 - INFO - 🤖 ML OPPORTUNITY #37
+2025-05-30 14:48:18,281 - INFO -    Asset: EURUSD
+2025-05-30 14:48:18,281 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:48:18,281 - INFO -    Signal: PUT
+2025-05-30 14:48:18,282 - INFO -    Confidence: 95.0%
+2025-05-30 14:48:18,282 - INFO -    ML Probability: 24.5%
+2025-05-30 14:48:18,762 - WARNING - ❌ Trade execution failed
+2025-05-30 14:48:21,043 - INFO - 🤖 ML OPPORTUNITY #38
+2025-05-30 14:48:21,043 - INFO -    Asset: EURUSD
+2025-05-30 14:48:21,043 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:48:21,043 - INFO -    Signal: PUT
+2025-05-30 14:48:21,043 - INFO -    Confidence: 89.9%
+2025-05-30 14:48:21,043 - INFO -    ML Probability: 24.7%
+2025-05-30 14:48:21,703 - WARNING - ❌ Trade execution failed
+2025-05-30 14:48:25,679 - INFO - 📊 Session Stats: 38 signals, 38 attempts, 0 executed
+2025-05-30 14:48:25,679 - INFO - --------------------------------------------------
+2025-05-30 14:48:55,886 - INFO - 🧠 Active ML Scan #15
+2025-05-30 14:48:55,886 - INFO - 💰 Balance: $25.57
+2025-05-30 14:48:56,387 - INFO - 🤖 ML OPPORTUNITY #39
+2025-05-30 14:48:56,389 - INFO -    Asset: EURUSD
+2025-05-30 14:48:56,390 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:48:56,390 - INFO -    Signal: PUT
+2025-05-30 14:48:56,390 - INFO -    Confidence: 95.0%
+2025-05-30 14:48:56,390 - INFO -    ML Probability: 23.6%
+2025-05-30 14:48:57,032 - WARNING - ❌ Trade execution failed
+2025-05-30 14:48:59,633 - INFO - 🤖 ML OPPORTUNITY #40
+2025-05-30 14:48:59,633 - INFO -    Asset: EURUSD
+2025-05-30 14:48:59,633 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:48:59,633 - INFO -    Signal: PUT
+2025-05-30 14:48:59,633 - INFO -    Confidence: 95.0%
+2025-05-30 14:48:59,633 - INFO -    ML Probability: 23.7%
+2025-05-30 14:49:00,380 - WARNING - ❌ Trade execution failed
+2025-05-30 14:49:02,576 - INFO - 🤖 ML OPPORTUNITY #41
+2025-05-30 14:49:02,576 - INFO -    Asset: GBPUSD
+2025-05-30 14:49:02,576 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:49:02,576 - INFO -    Signal: CALL
+2025-05-30 14:49:02,576 - INFO -    Confidence: 93.5%
+2025-05-30 14:49:02,576 - INFO -    ML Probability: 50.0%
+2025-05-30 14:49:03,032 - WARNING - ❌ Trade execution failed
+2025-05-30 14:49:05,194 - INFO - 🤖 ML OPPORTUNITY #42
+2025-05-30 14:49:05,194 - INFO -    Asset: GBPUSD
+2025-05-30 14:49:05,194 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:49:05,194 - INFO -    Signal: CALL
+2025-05-30 14:49:05,195 - INFO -    Confidence: 85.0%
+2025-05-30 14:49:05,195 - INFO -    ML Probability: 50.0%
+2025-05-30 14:49:05,632 - WARNING - ❌ Trade execution failed
+2025-05-30 14:49:08,934 - INFO - 📊 Session Stats: 42 signals, 42 attempts, 0 executed
+2025-05-30 14:49:08,934 - INFO - --------------------------------------------------
+2025-05-30 14:49:39,177 - INFO - 🧠 Active ML Scan #16
+2025-05-30 14:49:39,177 - INFO - 💰 Balance: $25.57
+2025-05-30 14:49:39,677 - INFO - 🤖 ML OPPORTUNITY #43
+2025-05-30 14:49:39,677 - INFO -    Asset: EURUSD
+2025-05-30 14:49:39,677 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:49:39,677 - INFO -    Signal: PUT
+2025-05-30 14:49:39,677 - INFO -    Confidence: 95.0%
+2025-05-30 14:49:39,677 - INFO -    ML Probability: 24.5%
+2025-05-30 14:49:40,586 - WARNING - ❌ Trade execution failed
+2025-05-30 14:49:42,953 - INFO - 🤖 ML OPPORTUNITY #44
+2025-05-30 14:49:42,954 - INFO -    Asset: EURUSD
+2025-05-30 14:49:42,954 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:49:42,954 - INFO -    Signal: PUT
+2025-05-30 14:49:42,955 - INFO -    Confidence: 95.0%
+2025-05-30 14:49:42,955 - INFO -    ML Probability: 24.0%
+2025-05-30 14:49:43,632 - WARNING - ❌ Trade execution failed
+2025-05-30 14:49:47,683 - INFO - 📊 Session Stats: 44 signals, 44 attempts, 0 executed
+2025-05-30 14:49:47,686 - INFO - --------------------------------------------------
+2025-05-30 14:50:17,879 - INFO - 🧠 Active ML Scan #17
+2025-05-30 14:50:17,879 - INFO - 💰 Balance: $25.57
+2025-05-30 14:50:18,294 - INFO - 🤖 ML OPPORTUNITY #45
+2025-05-30 14:50:18,294 - INFO -    Asset: EURUSD
+2025-05-30 14:50:18,294 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:50:18,294 - INFO -    Signal: PUT
+2025-05-30 14:50:18,294 - INFO -    Confidence: 95.0%
+2025-05-30 14:50:18,294 - INFO -    ML Probability: 24.1%
+2025-05-30 14:50:18,884 - WARNING - ❌ Trade execution failed
+2025-05-30 14:50:21,282 - INFO - 🤖 ML OPPORTUNITY #46
+2025-05-30 14:50:21,282 - INFO -    Asset: EURUSD
+2025-05-30 14:50:21,282 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:50:21,282 - INFO -    Signal: PUT
+2025-05-30 14:50:21,282 - INFO -    Confidence: 95.0%
+2025-05-30 14:50:21,282 - INFO -    ML Probability: 24.1%
+2025-05-30 14:50:22,179 - WARNING - ❌ Trade execution failed
+2025-05-30 14:50:26,222 - INFO - 
+📊 ML TRADING BOT PERFORMANCE REPORT:
+══════════════════════════════════════
+🤖 Signals Generated: 20
+📈 CALL Signals: 2
+📉 PUT Signals: 18
+🎯 Average Confidence: 90.0%
+✅ Trades Executed: 0
+⏸️  Market Closed: 0
+🔄 Execution Rate: 0.0% (when markets open)
+        
+2025-05-30 14:50:26,222 - INFO - 📊 Session Stats: 46 signals, 46 attempts, 0 executed
+2025-05-30 14:50:26,222 - INFO - --------------------------------------------------
+2025-05-30 14:50:56,477 - INFO - 🧠 Active ML Scan #18
+2025-05-30 14:50:56,477 - INFO - 💰 Balance: $25.57
+2025-05-30 14:50:56,843 - INFO - 🤖 ML OPPORTUNITY #47
+2025-05-30 14:50:56,843 - INFO -    Asset: EURUSD
+2025-05-30 14:50:56,843 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:50:56,843 - INFO -    Signal: PUT
+2025-05-30 14:50:56,843 - INFO -    Confidence: 95.0%
+2025-05-30 14:50:56,843 - INFO -    ML Probability: 22.8%
+2025-05-30 14:50:57,679 - WARNING - ❌ Trade execution failed
+2025-05-30 14:51:00,191 - INFO - 🤖 ML OPPORTUNITY #48
+2025-05-30 14:51:00,192 - INFO -    Asset: EURUSD
+2025-05-30 14:51:00,192 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:51:00,192 - INFO -    Signal: PUT
+2025-05-30 14:51:00,192 - INFO -    Confidence: 89.1%
+2025-05-30 14:51:00,192 - INFO -    ML Probability: 19.0%
+2025-05-30 14:51:01,136 - WARNING - ❌ Trade execution failed
+2025-05-30 14:51:05,128 - INFO - 📊 Session Stats: 48 signals, 48 attempts, 0 executed
+2025-05-30 14:51:05,128 - INFO - --------------------------------------------------
+2025-05-30 14:51:35,299 - INFO - 🧠 Active ML Scan #19
+2025-05-30 14:51:35,300 - INFO - 💰 Balance: $25.57
+2025-05-30 14:51:35,891 - INFO - 🤖 ML OPPORTUNITY #49
+2025-05-30 14:51:35,892 - INFO -    Asset: EURUSD
+2025-05-30 14:51:35,892 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:51:35,892 - INFO -    Signal: PUT
+2025-05-30 14:51:35,892 - INFO -    Confidence: 78.3%
+2025-05-30 14:51:35,892 - INFO -    ML Probability: 24.9%
+2025-05-30 14:51:36,534 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:51:38,894 - INFO - 🤖 ML OPPORTUNITY #50
+2025-05-30 14:51:38,894 - INFO -    Asset: EURUSD
+2025-05-30 14:51:38,894 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:51:38,894 - INFO -    Signal: PUT
+2025-05-30 14:51:38,894 - INFO -    Confidence: 70.8%
+2025-05-30 14:51:38,894 - INFO -    ML Probability: 24.9%
+2025-05-30 14:51:39,726 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:51:44,120 - INFO - 📊 Session Stats: 50 signals, 50 attempts, 0 executed
+2025-05-30 14:51:44,120 - INFO - --------------------------------------------------
+2025-05-30 14:52:14,341 - INFO - 🧠 Active ML Scan #20
+2025-05-30 14:52:14,341 - INFO - 💰 Balance: $25.57
+2025-05-30 14:52:14,890 - INFO - 🤖 ML OPPORTUNITY #51
+2025-05-30 14:52:14,890 - INFO -    Asset: EURUSD
+2025-05-30 14:52:14,891 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:52:14,891 - INFO -    Signal: PUT
+2025-05-30 14:52:14,892 - INFO -    Confidence: 95.0%
+2025-05-30 14:52:14,892 - INFO -    ML Probability: 24.5%
+2025-05-30 14:52:15,733 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:52:18,287 - INFO - 🤖 ML OPPORTUNITY #52
+2025-05-30 14:52:18,287 - INFO -    Asset: EURUSD
+2025-05-30 14:52:18,288 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:52:18,288 - INFO -    Signal: PUT
+2025-05-30 14:52:18,288 - INFO -    Confidence: 92.9%
+2025-05-30 14:52:18,288 - INFO -    ML Probability: 24.7%
+2025-05-30 14:52:19,232 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:52:21,442 - INFO - 🤖 ML OPPORTUNITY #53
+2025-05-30 14:52:21,442 - INFO -    Asset: GBPUSD
+2025-05-30 14:52:21,442 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:52:21,442 - INFO -    Signal: CALL
+2025-05-30 14:52:21,442 - INFO -    Confidence: 88.0%
+2025-05-30 14:52:21,442 - INFO -    ML Probability: 50.0%
+2025-05-30 14:52:21,988 - WARNING - ⏸️  Market closed for GBPUSD - Signal saved for later
+2025-05-30 14:52:24,276 - INFO - 🤖 ML OPPORTUNITY #54
+2025-05-30 14:52:24,276 - INFO -    Asset: GBPUSD
+2025-05-30 14:52:24,276 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:52:24,276 - INFO -    Signal: CALL
+2025-05-30 14:52:24,276 - INFO -    Confidence: 80.0%
+2025-05-30 14:52:24,276 - INFO -    ML Probability: 50.0%
+2025-05-30 14:52:24,933 - WARNING - ⏸️  Market closed for GBPUSD - Signal saved for later
+2025-05-30 14:52:28,833 - INFO - 📊 Session Stats: 54 signals, 54 attempts, 0 executed
+2025-05-30 14:52:28,833 - INFO - --------------------------------------------------
+2025-05-30 14:52:59,003 - INFO - 🧠 Active ML Scan #21
+2025-05-30 14:52:59,007 - INFO - 💰 Balance: $25.57
+2025-05-30 14:52:59,632 - INFO - 🤖 ML OPPORTUNITY #55
+2025-05-30 14:52:59,632 - INFO -    Asset: EURUSD
+2025-05-30 14:52:59,632 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:52:59,632 - INFO -    Signal: PUT
+2025-05-30 14:52:59,632 - INFO -    Confidence: 94.3%
+2025-05-30 14:52:59,632 - INFO -    ML Probability: 0.0%
+2025-05-30 14:53:00,680 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:53:03,333 - INFO - 🤖 ML OPPORTUNITY #56
+2025-05-30 14:53:03,333 - INFO -    Asset: EURUSD
+2025-05-30 14:53:03,333 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:53:03,333 - INFO -    Signal: PUT
+2025-05-30 14:53:03,333 - INFO -    Confidence: 82.5%
+2025-05-30 14:53:03,333 - INFO -    ML Probability: 37.7%
+2025-05-30 14:53:04,326 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:53:08,989 - INFO - 📊 Session Stats: 56 signals, 56 attempts, 0 executed
+2025-05-30 14:53:08,989 - INFO - --------------------------------------------------
+2025-05-30 14:53:39,232 - INFO - 🧠 Active ML Scan #22
+2025-05-30 14:53:39,232 - INFO - 💰 Balance: $25.57
+2025-05-30 14:53:39,850 - INFO - 🤖 ML OPPORTUNITY #57
+2025-05-30 14:53:39,850 - INFO -    Asset: EURUSD
+2025-05-30 14:53:39,851 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:53:39,851 - INFO -    Signal: PUT
+2025-05-30 14:53:39,851 - INFO -    Confidence: 95.0%
+2025-05-30 14:53:39,852 - INFO -    ML Probability: 20.7%
+2025-05-30 14:53:40,590 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:53:43,039 - INFO - 🤖 ML OPPORTUNITY #58
+2025-05-30 14:53:43,039 - INFO -    Asset: EURUSD
+2025-05-30 14:53:43,039 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:53:43,039 - INFO -    Signal: PUT
+2025-05-30 14:53:43,039 - INFO -    Confidence: 89.7%
+2025-05-30 14:53:43,039 - INFO -    ML Probability: 19.8%
+2025-05-30 14:53:43,788 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:53:48,136 - INFO - 📊 Session Stats: 58 signals, 58 attempts, 0 executed
+2025-05-30 14:53:48,136 - INFO - --------------------------------------------------
+2025-05-30 14:54:18,380 - INFO - 🧠 Active ML Scan #23
+2025-05-30 14:54:18,380 - INFO - 💰 Balance: $25.57
+2025-05-30 14:54:18,936 - INFO - 🤖 ML OPPORTUNITY #59
+2025-05-30 14:54:18,936 - INFO -    Asset: EURUSD
+2025-05-30 14:54:18,936 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:54:18,936 - INFO -    Signal: PUT
+2025-05-30 14:54:18,936 - INFO -    Confidence: 95.0%
+2025-05-30 14:54:18,936 - INFO -    ML Probability: 21.2%
+2025-05-30 14:54:19,879 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:54:22,639 - INFO - 🤖 ML OPPORTUNITY #60
+2025-05-30 14:54:22,639 - INFO -    Asset: EURUSD
+2025-05-30 14:54:22,639 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:54:22,639 - INFO -    Signal: PUT
+2025-05-30 14:54:22,639 - INFO -    Confidence: 89.3%
+2025-05-30 14:54:22,639 - INFO -    ML Probability: 21.2%
+2025-05-30 14:54:23,832 - WARNING - ⏸️  Market closed for EURUSD - Signal saved for later
+2025-05-30 14:54:26,041 - INFO - 🤖 ML OPPORTUNITY #61
+2025-05-30 14:54:26,041 - INFO -    Asset: GBPUSD
+2025-05-30 14:54:26,041 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:54:26,041 - INFO -    Signal: CALL
+2025-05-30 14:54:26,041 - INFO -    Confidence: 88.0%
+2025-05-30 14:54:26,041 - INFO -    ML Probability: 50.0%
+2025-05-30 14:54:26,780 - WARNING - ⏸️  Market closed for GBPUSD - Signal saved for later
+2025-05-30 14:54:29,183 - INFO - 🤖 ML OPPORTUNITY #62
+2025-05-30 14:54:29,184 - INFO -    Asset: GBPUSD
+2025-05-30 14:54:29,184 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:54:29,184 - INFO -    Signal: CALL
+2025-05-30 14:54:29,184 - INFO -    Confidence: 80.0%
+2025-05-30 14:54:29,184 - INFO -    ML Probability: 50.0%
+2025-05-30 14:54:29,880 - WARNING - ⏸️  Market closed for GBPUSD - Signal saved for later
+2025-05-30 14:54:32,092 - INFO - 🤖 ML OPPORTUNITY #63
+2025-05-30 14:54:32,092 - INFO -    Asset: USDJPY
+2025-05-30 14:54:32,092 - INFO -    Strategy: adaptive_ml
+2025-05-30 14:54:32,092 - INFO -    Signal: PUT
+2025-05-30 14:54:32,092 - INFO -    Confidence: 88.0%
+2025-05-30 14:54:32,092 - INFO -    ML Probability: 50.0%
+2025-05-30 14:54:32,732 - WARNING - ⏸️  Market closed for USDJPY - Signal saved for later
+2025-05-30 14:54:35,540 - INFO - 🤖 ML OPPORTUNITY #64
+2025-05-30 14:54:35,540 - INFO -    Asset: USDJPY
+2025-05-30 14:54:35,540 - INFO -    Strategy: ml_enhanced
+2025-05-30 14:54:35,540 - INFO -    Signal: PUT
+2025-05-30 14:54:35,540 - INFO -    Confidence: 80.0%
+2025-05-30 14:54:35,540 - INFO -    ML Probability: 50.0%
+2025-05-30 14:54:36,791 - WARNING - ⏸️  Market closed for USDJPY - Signal saved for later
+2025-05-30 14:54:40,232 - INFO - 📊 Session Stats: 64 signals, 64 attempts, 0 executed
+2025-05-30 14:54:40,232 - INFO - --------------------------------------------------
+2025-05-30 14:55:19,234 - ERROR - Future exception was never retrieved
+future: <Future finished exception=ClientConnectionError('Connection lost: [Errno 104] Connection reset by peer')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+aiohttp.client_exceptions.ClientConnectionError: Connection lost: [Errno 104] Connection reset by peer
+2025-05-30 14:55:19,282 - ERROR - Connection error: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]
+2025-05-30 14:55:19,282 - WARNING - ⏸️  IQOption API disconnected

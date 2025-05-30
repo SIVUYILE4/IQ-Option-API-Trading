@@ -1,0 +1,23 @@
+2025-05-30 15:30:10,792 - INFO - 🔧 Creating advanced profit-focused features...
+2025-05-30 15:30:14,392 - INFO - ✅ Created 137 advanced features
+Traceback (most recent call last):
+  File "/app/advanced_ml_system.py", line 733, in <module>
+    asyncio.run(main())
+  File "/usr/local/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/app/advanced_ml_system.py", line 705, in main
+    results = advanced_ml.train_advanced_models(features[valid_mask], labels[valid_mask])
+                                                ~~~~~~~~^^^^^^^^^^^^
+  File "/root/.venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4093, in __getitem__
+    return self._getitem_bool_array(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4143, in _getitem_bool_array
+    raise ValueError(
+ValueError: Item wrong length 999 instead of 1000.
