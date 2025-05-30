@@ -368,6 +368,43 @@ class TradingStrategies:
         
         return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Combined_Optimized")
 
+    def backtested_optimized_strategy(self, asset: str, data: pd.DataFrame) -> StrategySignal:
+        """Use only the most profitable strategy for each asset based on backtesting"""
+        try:
+            # Based on backtesting results, use best strategy for each asset
+            if asset == "EURUSD":
+                # Best: Bollinger (57.4% win rate)
+                signal = self.bollinger_strategy(data)
+                if signal.confidence < 0.8:  # Increase threshold for proven strategy
+                    # Fallback to MACD (57.1% win rate)
+                    macd_signal = self.macd_strategy(data)
+                    if macd_signal.confidence > signal.confidence:
+                        signal = macd_signal
+            elif asset == "GBPUSD":
+                # Best: MACD (50.0% win rate, though barely profitable)
+                signal = self.macd_strategy(data)
+                if signal.confidence < 0.8:  # Very high threshold for this asset
+                    signal = StrategySignal(asset=asset, signal="hold", confidence=0.0, strategy_name="Optimized_Conservative")
+            elif asset == "USDJPY":
+                # Best: Bollinger (50.0% win rate, though unprofitable)
+                signal = self.bollinger_strategy(data)
+                if signal.confidence < 0.8:  # Very high threshold
+                    signal = StrategySignal(asset=asset, signal="hold", confidence=0.0, strategy_name="Optimized_Conservative")
+            elif asset == "AUDCAD":
+                # Best: RSI (50.0% win rate) but very few trades
+                signal = self.rsi_strategy(data)
+                if signal.confidence < 0.8:  # Very high threshold
+                    signal = StrategySignal(asset=asset, signal="hold", confidence=0.0, strategy_name="Optimized_Conservative")
+            else:
+                # Default to most conservative approach
+                signal = StrategySignal(asset=asset, signal="hold", confidence=0.0, strategy_name="Optimized_Unknown_Asset")
+            
+            signal.asset = asset
+            return signal
+        except Exception as e:
+            logging.error(f"Error in optimized strategy for {asset}: {e}")
+            return StrategySignal(asset=asset, signal="hold", confidence=0.0, strategy_name="Optimized_Error")
+
     def get_strategy_signal(self, asset: str, data: pd.DataFrame, strategy: str = "combined") -> StrategySignal:
         """Get trading signal based on selected strategy"""
         try:
@@ -381,6 +418,8 @@ class TradingStrategies:
                 signal = self.trend_following_strategy(data)
             elif strategy == "combined":
                 signal = self.combined_strategy(data)
+            elif strategy == "optimized":
+                signal = self.backtested_optimized_strategy(asset, data)
             else:
                 signal = self.combined_strategy(data)  # Default to combined
             
