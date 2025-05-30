@@ -691,6 +691,15 @@ async def startup_event():
     """Initialize connections on startup"""
     logger.info("Starting IQOption Trading System...")
     await iq_service.connect()
+    
+    # Initialize ML models
+    logger.info("🤖 Initializing ML-enhanced strategies...")
+    try:
+        await enhanced_strategies.initialize_ml_models("EURUSD")
+        logger.info("✅ ML models ready for trading")
+    except Exception as e:
+        logger.error(f"ML initialization error: {e}")
+        logger.info("⚠️ Falling back to traditional strategies")
 
 @app.on_event("shutdown")
 async def shutdown_db_client():
