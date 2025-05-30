@@ -20,6 +20,11 @@ from scipy import stats
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+import sys
+
+# Import ML-enhanced strategies
+sys.path.append('/app')
+from enhanced_ml_strategies import EnhancedMLTradingStrategies, enhanced_strategies
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
