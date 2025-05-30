@@ -1,0 +1,84 @@
+2025-05-30 09:47:56,145 - INFO - 🚀 Starting Auto Trading Monitor...
+2025-05-30 09:47:56,145 - INFO - 💰 Trade Amount: $1.0
+2025-05-30 09:47:56,145 - INFO - 📊 Confidence Threshold: 70%
+2025-05-30 09:47:56,145 - INFO - 🎯 Assets: EURUSD, GBPUSD, USDJPY, AUDCAD
+2025-05-30 09:47:56,145 - INFO - ⚡ Strategies: combined, rsi, macd, bollinger, trend
+2025-05-30 09:47:56,145 - INFO - ============================================================
+2025-05-30 09:47:56,311 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:47:56,311 - INFO - 🔍 Scanning #1 for trading opportunities...
+2025-05-30 09:48:03,022 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:48:03,065 - INFO - 📈 PERFORMANCE UPDATE:
+2025-05-30 09:48:03,065 - INFO -    Total Trades: 0
+2025-05-30 09:48:03,065 - INFO -    Win Rate: 0.0%
+2025-05-30 09:48:03,065 - INFO -    Total Profit: $0.00
+2025-05-30 09:48:03,065 - INFO -    Signals Checked: 20
+2025-05-30 09:48:03,065 - INFO - ✅ Scan #1 complete - Trades executed: 0
+2025-05-30 09:48:03,065 - INFO - ----------------------------------------
+2025-05-30 09:48:33,257 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:48:33,257 - INFO - 🔍 Scanning #2 for trading opportunities...
+2025-05-30 09:48:39,375 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:48:39,375 - INFO - ✅ Scan #2 complete - Trades executed: 0
+2025-05-30 09:48:39,375 - INFO - ----------------------------------------
+2025-05-30 09:49:09,597 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:49:09,597 - INFO - 🔍 Scanning #3 for trading opportunities...
+2025-05-30 09:49:15,205 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:49:15,205 - INFO - ✅ Scan #3 complete - Trades executed: 0
+2025-05-30 09:49:15,205 - INFO - ----------------------------------------
+2025-05-30 09:49:45,397 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:49:45,397 - INFO - 🔍 Scanning #4 for trading opportunities...
+2025-05-30 09:49:51,231 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:49:51,231 - INFO - ✅ Scan #4 complete - Trades executed: 0
+2025-05-30 09:49:51,231 - INFO - ----------------------------------------
+2025-05-30 09:50:21,401 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:50:21,401 - INFO - 🔍 Scanning #5 for trading opportunities...
+2025-05-30 09:50:22,634 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:50:22,634 - INFO -    EURUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:50:26,558 - WARNING - Trade execution failed: No high-confidence signal. Signal: hold, Confidence: 0.00
+2025-05-30 09:50:26,558 - INFO - ✅ Scan #5 complete - Trades executed: 0
+2025-05-30 09:50:26,558 - INFO - ----------------------------------------
+2025-05-30 09:50:56,739 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:50:56,740 - INFO - 🔍 Scanning #6 for trading opportunities...
+2025-05-30 09:51:01,635 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:51:01,635 - INFO - ✅ Scan #6 complete - Trades executed: 0
+2025-05-30 09:51:01,635 - INFO - ----------------------------------------
+2025-05-30 09:51:31,807 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:51:31,807 - INFO - 🔍 Scanning #7 for trading opportunities...
+2025-05-30 09:51:32,915 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:51:32,915 - INFO -    EURUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:51:34,052 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:51:34,052 - INFO -    GBPUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:51:36,921 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:51:37,308 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:51:37,308 - INFO - ✅ Scan #7 complete - Trades executed: 0
+2025-05-30 09:51:37,308 - INFO - ----------------------------------------
+2025-05-30 09:52:07,485 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:52:07,485 - INFO - 🔍 Scanning #8 for trading opportunities...
+2025-05-30 09:52:08,239 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:52:08,239 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 09:52:08,810 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:52:08,810 - INFO -    EURUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:52:09,518 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:52:09,518 - INFO -    GBPUSD - macd: PUT (75.0% confidence)
+2025-05-30 09:52:10,090 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:52:10,090 - INFO -    GBPUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:52:13,298 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:52:13,842 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:52:14,422 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:52:15,027 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:52:15,027 - INFO - ✅ Scan #8 complete - Trades executed: 0
+2025-05-30 09:52:15,028 - INFO - ----------------------------------------
+2025-05-30 09:52:45,198 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:52:45,198 - INFO - 🔍 Scanning #9 for trading opportunities...
+2025-05-30 09:52:50,304 - INFO - 💤 No high-confidence opportunities found this scan
+2025-05-30 09:52:50,304 - INFO - ✅ Scan #9 complete - Trades executed: 0
+2025-05-30 09:52:50,304 - INFO - ----------------------------------------
+2025-05-30 09:53:20,485 - INFO - ✅ IQOption Connected - Balance: $37.07
+2025-05-30 09:53:20,485 - INFO - 🔍 Scanning #10 for trading opportunities...
+2025-05-30 09:53:21,304 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:53:21,304 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 09:53:21,823 - INFO - 🔍 HIGH-CONFIDENCE OPPORTUNITY FOUND!
+2025-05-30 09:53:21,823 - INFO -    EURUSD - trend: PUT (82.0% confidence)
+2025-05-30 09:53:26,856 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:53:27,437 - WARNING - Trade execution failed: Trade execution failed: Trade execution failed
+2025-05-30 09:53:27,437 - INFO - ✅ Scan #10 complete - Trades executed: 0
+2025-05-30 09:53:27,437 - INFO - ----------------------------------------

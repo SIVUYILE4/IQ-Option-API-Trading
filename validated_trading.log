@@ -1,0 +1,1147 @@
+2025-05-30 09:55:57,116 - INFO - 🚀 STARTING BACKTESTING-VALIDATED AUTO TRADER
+2025-05-30 09:55:57,116 - INFO - 🔬 Only trades combinations proven profitable in backtesting
+2025-05-30 09:55:57,116 - INFO - 💰 Trade Amount: $1.0
+2025-05-30 09:55:57,116 - INFO - 📊 Confidence Threshold: 75%
+2025-05-30 09:55:57,156 - INFO - 🎯 Validated Assets: ['EURUSD']
+2025-05-30 09:55:57,156 - INFO - ======================================================================
+2025-05-30 09:55:57,324 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:55:57,324 - INFO - 🔍 Validated Scan #1
+2025-05-30 09:55:57,599 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:55:57,599 - INFO -    EURUSD - bollinger: CALL (80.0% confidence)
+2025-05-30 09:55:57,599 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 09:55:58,497 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:55:58,497 - INFO - ✅ Scan #1 complete - Validated trades: 0
+2025-05-30 09:55:58,497 - INFO - --------------------------------------------------
+2025-05-30 09:56:28,687 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:56:28,687 - INFO - 🔍 Validated Scan #2
+2025-05-30 09:56:28,929 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:56:28,929 - INFO -    EURUSD - bollinger: CALL (80.0% confidence)
+2025-05-30 09:56:28,929 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 09:56:29,805 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:56:29,805 - INFO - ✅ Scan #2 complete - Validated trades: 0
+2025-05-30 09:56:29,805 - INFO - --------------------------------------------------
+2025-05-30 09:56:59,982 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:56:59,982 - INFO - 🔍 Validated Scan #3
+2025-05-30 09:57:00,706 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:57:00,706 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:57:00,706 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:57:01,309 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:57:01,310 - INFO - ✅ Scan #3 complete - Validated trades: 0
+2025-05-30 09:57:01,310 - INFO - --------------------------------------------------
+2025-05-30 09:57:31,489 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:57:31,489 - INFO - 🔍 Validated Scan #4
+2025-05-30 09:57:32,314 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:57:32,314 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:57:32,315 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:57:32,706 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:57:32,707 - INFO - ✅ Scan #4 complete - Validated trades: 0
+2025-05-30 09:57:32,707 - INFO - --------------------------------------------------
+2025-05-30 09:58:02,881 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:58:02,882 - INFO - 🔍 Validated Scan #5
+2025-05-30 09:58:03,627 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:58:03,628 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:58:03,628 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:58:04,032 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:58:04,033 - INFO - ✅ Scan #5 complete - Validated trades: 0
+2025-05-30 09:58:04,033 - INFO - --------------------------------------------------
+2025-05-30 09:58:34,262 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:58:34,262 - INFO - 🔍 Validated Scan #6
+2025-05-30 09:58:35,124 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:58:35,124 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:58:35,124 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:58:35,527 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:58:35,527 - INFO - ✅ Scan #6 complete - Validated trades: 0
+2025-05-30 09:58:35,527 - INFO - --------------------------------------------------
+2025-05-30 09:59:05,690 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:59:05,691 - INFO - 🔍 Validated Scan #7
+2025-05-30 09:59:06,499 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:59:06,499 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:59:06,499 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:59:07,103 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:59:07,103 - INFO - ✅ Scan #7 complete - Validated trades: 0
+2025-05-30 09:59:07,103 - INFO - --------------------------------------------------
+2025-05-30 09:59:37,281 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 09:59:37,281 - INFO - 🔍 Validated Scan #8
+2025-05-30 09:59:38,049 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 09:59:38,049 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 09:59:38,049 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 09:59:38,669 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 09:59:38,669 - INFO - ✅ Scan #8 complete - Validated trades: 0
+2025-05-30 09:59:38,669 - INFO - --------------------------------------------------
+2025-05-30 10:00:08,892 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:00:08,893 - INFO - 🔍 Validated Scan #9
+2025-05-30 10:00:09,748 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:00:09,748 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:00:09,748 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:00:10,199 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:00:10,199 - INFO - ✅ Scan #9 complete - Validated trades: 0
+2025-05-30 10:00:10,199 - INFO - --------------------------------------------------
+2025-05-30 10:00:40,802 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:00:40,802 - INFO - 🔍 Validated Scan #10
+2025-05-30 10:00:41,612 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:00:41,612 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:00:41,612 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:00:42,156 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:00:42,156 - INFO - ✅ Scan #10 complete - Validated trades: 0
+2025-05-30 10:00:42,156 - INFO - --------------------------------------------------
+2025-05-30 10:01:12,338 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:01:12,339 - INFO - 🔍 Validated Scan #11
+2025-05-30 10:01:13,070 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:01:13,070 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:01:13,070 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:01:13,595 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:01:13,595 - INFO - ✅ Scan #11 complete - Validated trades: 0
+2025-05-30 10:01:13,595 - INFO - --------------------------------------------------
+2025-05-30 10:01:43,766 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:01:43,766 - INFO - 🔍 Validated Scan #12
+2025-05-30 10:01:44,471 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:01:44,471 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:01:44,471 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:01:44,922 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:01:44,922 - INFO - ✅ Scan #12 complete - Validated trades: 0
+2025-05-30 10:01:44,922 - INFO - --------------------------------------------------
+2025-05-30 10:02:15,098 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:02:15,099 - INFO - 🔍 Validated Scan #13
+2025-05-30 10:02:15,829 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:02:15,829 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:02:15,829 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:02:16,433 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:02:16,433 - INFO - ✅ Scan #13 complete - Validated trades: 0
+2025-05-30 10:02:16,433 - INFO - --------------------------------------------------
+2025-05-30 10:02:46,610 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:02:46,610 - INFO - 🔍 Validated Scan #14
+2025-05-30 10:02:47,406 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:02:47,406 - INFO - ✅ Scan #14 complete - Validated trades: 0
+2025-05-30 10:02:47,407 - INFO - --------------------------------------------------
+2025-05-30 10:03:17,590 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:03:17,590 - INFO - 🔍 Validated Scan #15
+2025-05-30 10:03:18,307 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:03:18,307 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:03:18,307 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:03:18,714 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:03:18,714 - INFO - ✅ Scan #15 complete - Validated trades: 0
+2025-05-30 10:03:18,714 - INFO - --------------------------------------------------
+2025-05-30 10:03:48,886 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:03:48,886 - INFO - 🔍 Validated Scan #16
+2025-05-30 10:03:49,703 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:03:49,703 - INFO - ✅ Scan #16 complete - Validated trades: 0
+2025-05-30 10:03:49,703 - INFO - --------------------------------------------------
+2025-05-30 10:04:19,883 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:04:19,883 - INFO - 🔍 Validated Scan #17
+2025-05-30 10:04:20,640 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:04:20,640 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:04:20,640 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:04:21,037 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:04:21,037 - INFO - ✅ Scan #17 complete - Validated trades: 0
+2025-05-30 10:04:21,037 - INFO - --------------------------------------------------
+2025-05-30 10:04:51,200 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:04:51,200 - INFO - 🔍 Validated Scan #18
+2025-05-30 10:04:51,929 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:04:51,929 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:04:51,929 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:04:52,343 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:04:52,344 - INFO - ✅ Scan #18 complete - Validated trades: 0
+2025-05-30 10:04:52,344 - INFO - --------------------------------------------------
+2025-05-30 10:05:22,556 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:05:22,557 - INFO - 🔍 Validated Scan #19
+2025-05-30 10:05:23,103 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:05:23,103 - INFO -    EURUSD - macd: CALL (75.0% confidence)
+2025-05-30 10:05:23,103 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:05:23,333 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:05:23,333 - INFO -    EURUSD - combined: CALL (75.0% confidence)
+2025-05-30 10:05:23,333 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:05:23,933 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:05:24,403 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:05:24,403 - INFO - ✅ Scan #19 complete - Validated trades: 0
+2025-05-30 10:05:24,403 - INFO - --------------------------------------------------
+2025-05-30 10:05:54,600 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:05:54,600 - INFO - 🔍 Validated Scan #20
+2025-05-30 10:05:55,078 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:05:55,078 - INFO -    EURUSD - macd: CALL (75.0% confidence)
+2025-05-30 10:05:55,078 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:05:55,329 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:05:55,329 - INFO -    EURUSD - combined: CALL (75.0% confidence)
+2025-05-30 10:05:55,329 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:05:55,898 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:05:56,499 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:05:56,499 - INFO - ✅ Scan #20 complete - Validated trades: 0
+2025-05-30 10:05:56,499 - INFO - --------------------------------------------------
+2025-05-30 10:06:26,694 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:06:26,694 - INFO - 🔍 Validated Scan #21
+2025-05-30 10:06:27,450 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:06:27,450 - INFO - ✅ Scan #21 complete - Validated trades: 0
+2025-05-30 10:06:27,450 - INFO - --------------------------------------------------
+2025-05-30 10:06:57,658 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:06:57,659 - INFO - 🔍 Validated Scan #22
+2025-05-30 10:06:58,409 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:06:58,409 - INFO - ✅ Scan #22 complete - Validated trades: 0
+2025-05-30 10:06:58,409 - INFO - --------------------------------------------------
+2025-05-30 10:07:28,615 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:07:28,615 - INFO - 🔍 Validated Scan #23
+2025-05-30 10:07:29,360 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:07:29,360 - INFO - ✅ Scan #23 complete - Validated trades: 0
+2025-05-30 10:07:29,360 - INFO - --------------------------------------------------
+2025-05-30 10:07:59,559 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:07:59,559 - INFO - 🔍 Validated Scan #24
+2025-05-30 10:08:00,330 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:08:00,331 - INFO - ✅ Scan #24 complete - Validated trades: 0
+2025-05-30 10:08:00,331 - INFO - --------------------------------------------------
+2025-05-30 10:08:30,496 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:08:30,496 - INFO - 🔍 Validated Scan #25
+2025-05-30 10:08:31,333 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:08:31,333 - INFO - ✅ Scan #25 complete - Validated trades: 0
+2025-05-30 10:08:31,334 - INFO - --------------------------------------------------
+2025-05-30 10:09:01,513 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:09:01,513 - INFO - 🔍 Validated Scan #26
+2025-05-30 10:09:02,260 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:09:02,260 - INFO - ✅ Scan #26 complete - Validated trades: 0
+2025-05-30 10:09:02,260 - INFO - --------------------------------------------------
+2025-05-30 10:09:32,605 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:09:32,605 - INFO - 🔍 Validated Scan #27
+2025-05-30 10:09:33,343 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:09:33,343 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:09:33,343 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:09:33,777 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:09:33,777 - INFO - ✅ Scan #27 complete - Validated trades: 0
+2025-05-30 10:09:33,777 - INFO - --------------------------------------------------
+2025-05-30 10:10:03,960 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:10:03,961 - INFO - 🔍 Validated Scan #28
+2025-05-30 10:10:04,675 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:10:04,675 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:10:04,675 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:10:05,123 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:10:05,123 - INFO - ✅ Scan #28 complete - Validated trades: 0
+2025-05-30 10:10:05,123 - INFO - --------------------------------------------------
+2025-05-30 10:10:39,759 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:10:39,759 - INFO - 🔍 Validated Scan #29
+2025-05-30 10:10:41,323 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:10:41,323 - INFO -    EURUSD - combined: PUT (82.0% confidence)
+2025-05-30 10:10:41,323 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:10:41,719 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:10:41,719 - INFO - ✅ Scan #29 complete - Validated trades: 0
+2025-05-30 10:10:41,719 - INFO - --------------------------------------------------
+2025-05-30 10:11:11,887 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:11:11,888 - INFO - 🔍 Validated Scan #30
+2025-05-30 10:11:13,082 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:11:13,082 - INFO - ✅ Scan #30 complete - Validated trades: 0
+2025-05-30 10:11:13,082 - INFO - --------------------------------------------------
+2025-05-30 10:11:43,272 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:11:43,272 - INFO - 🔍 Validated Scan #31
+2025-05-30 10:11:44,280 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:11:44,280 - INFO - ✅ Scan #31 complete - Validated trades: 0
+2025-05-30 10:11:44,280 - INFO - --------------------------------------------------
+2025-05-30 10:12:14,498 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:12:14,498 - INFO - 🔍 Validated Scan #32
+2025-05-30 10:12:15,765 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:12:15,765 - INFO - ✅ Scan #32 complete - Validated trades: 0
+2025-05-30 10:12:15,765 - INFO - --------------------------------------------------
+2025-05-30 10:12:45,972 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:12:45,973 - INFO - 🔍 Validated Scan #33
+2025-05-30 10:12:47,216 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:12:47,216 - INFO - ✅ Scan #33 complete - Validated trades: 0
+2025-05-30 10:12:47,216 - INFO - --------------------------------------------------
+2025-05-30 10:13:17,384 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:13:17,384 - INFO - 🔍 Validated Scan #34
+2025-05-30 10:13:17,764 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:13:17,764 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:13:17,764 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:13:18,556 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:13:18,556 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:13:18,556 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:13:19,300 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:13:19,681 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:13:19,681 - INFO - ✅ Scan #34 complete - Validated trades: 0
+2025-05-30 10:13:19,681 - INFO - --------------------------------------------------
+2025-05-30 10:13:49,857 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:13:49,857 - INFO - 🔍 Validated Scan #35
+2025-05-30 10:13:50,104 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:13:50,104 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:13:50,104 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:13:50,556 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:13:50,556 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:13:50,556 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:13:51,123 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:13:51,662 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:13:51,663 - INFO - ✅ Scan #35 complete - Validated trades: 0
+2025-05-30 10:13:51,663 - INFO - --------------------------------------------------
+2025-05-30 10:14:21,857 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:14:21,857 - INFO - 🔍 Validated Scan #36
+2025-05-30 10:14:22,100 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:22,101 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:14:22,101 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:14:22,556 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:22,556 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:14:22,556 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:14:22,981 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:23,556 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:23,556 - INFO - ✅ Scan #36 complete - Validated trades: 0
+2025-05-30 10:14:23,556 - INFO - --------------------------------------------------
+2025-05-30 10:14:53,728 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:14:53,728 - INFO - 🔍 Validated Scan #37
+2025-05-30 10:14:54,203 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:54,203 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:14:54,203 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:14:54,704 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:54,704 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:14:54,705 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:14:55,105 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:55,478 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:55,479 - INFO - ✅ Scan #37 complete - Validated trades: 0
+2025-05-30 10:14:55,479 - INFO - --------------------------------------------------
+2025-05-30 10:15:25,659 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:25,659 - INFO - 🔍 Validated Scan #38
+2025-05-30 10:15:26,429 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:26,429 - INFO - ✅ Scan #38 complete - Validated trades: 0
+2025-05-30 10:15:26,429 - INFO - --------------------------------------------------
+2025-05-30 10:15:56,606 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:56,606 - INFO - 🔍 Validated Scan #39
+2025-05-30 10:15:57,305 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:57,305 - INFO - ✅ Scan #39 complete - Validated trades: 0
+2025-05-30 10:15:57,305 - INFO - --------------------------------------------------
+2025-05-30 10:16:27,467 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:27,467 - INFO - 🔍 Validated Scan #40
+2025-05-30 10:16:28,142 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:28,142 - INFO - ✅ Scan #40 complete - Validated trades: 0
+2025-05-30 10:16:28,142 - INFO - --------------------------------------------------
+2025-05-30 10:16:58,324 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:58,324 - INFO - 🔍 Validated Scan #41
+2025-05-30 10:16:59,087 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:59,087 - INFO - ✅ Scan #41 complete - Validated trades: 0
+2025-05-30 10:16:59,087 - INFO - --------------------------------------------------
+2025-05-30 10:17:29,267 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:29,268 - INFO - 🔍 Validated Scan #42
+2025-05-30 10:17:30,108 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:30,108 - INFO - ✅ Scan #42 complete - Validated trades: 0
+2025-05-30 10:17:30,108 - INFO - --------------------------------------------------
+2025-05-30 10:18:00,270 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:00,270 - INFO - 🔍 Validated Scan #43
+2025-05-30 10:18:01,023 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:01,023 - INFO - ✅ Scan #43 complete - Validated trades: 0
+2025-05-30 10:18:01,023 - INFO - --------------------------------------------------
+2025-05-30 10:18:31,193 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:31,193 - INFO - 🔍 Validated Scan #44
+2025-05-30 10:18:31,880 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:31,880 - INFO - ✅ Scan #44 complete - Validated trades: 0
+2025-05-30 10:18:31,880 - INFO - --------------------------------------------------
+2025-05-30 10:19:02,037 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:02,038 - INFO - 🔍 Validated Scan #45
+2025-05-30 10:19:02,730 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:02,730 - INFO - ✅ Scan #45 complete - Validated trades: 0
+2025-05-30 10:19:02,730 - INFO - --------------------------------------------------
+2025-05-30 10:19:32,908 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:32,908 - INFO - 🔍 Validated Scan #46
+2025-05-30 10:19:33,637 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:33,637 - INFO - ✅ Scan #46 complete - Validated trades: 0
+2025-05-30 10:19:33,637 - INFO - --------------------------------------------------
+2025-05-30 10:20:03,802 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:03,802 - INFO - 🔍 Validated Scan #47
+2025-05-30 10:20:04,521 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:04,521 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:04,521 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:04,909 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:04,912 - INFO - ✅ Scan #47 complete - Validated trades: 0
+2025-05-30 10:20:04,912 - INFO - --------------------------------------------------
+2025-05-30 10:20:35,107 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:35,107 - INFO - 🔍 Validated Scan #48
+2025-05-30 10:20:35,834 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:35,834 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:35,834 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:36,256 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:36,256 - INFO - ✅ Scan #48 complete - Validated trades: 0
+2025-05-30 10:20:36,256 - INFO - --------------------------------------------------
+2025-05-30 10:21:06,433 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:06,433 - INFO - 🔍 Validated Scan #49
+2025-05-30 10:21:07,305 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:07,305 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:07,305 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:07,903 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:07,903 - INFO - ✅ Scan #49 complete - Validated trades: 0
+2025-05-30 10:21:07,903 - INFO - --------------------------------------------------
+2025-05-30 10:21:38,087 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:38,087 - INFO - 🔍 Validated Scan #50
+2025-05-30 10:21:38,829 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:38,829 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:38,829 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:39,221 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:39,222 - INFO - ✅ Scan #50 complete - Validated trades: 0
+2025-05-30 10:21:39,222 - INFO - --------------------------------------------------
+2025-05-30 10:22:09,393 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:09,393 - INFO - 🔍 Validated Scan #51
+2025-05-30 10:22:10,207 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:10,208 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:10,208 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:10,621 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:10,622 - INFO - ✅ Scan #51 complete - Validated trades: 0
+2025-05-30 10:22:10,622 - INFO - --------------------------------------------------
+2025-05-30 10:22:40,867 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:40,867 - INFO - 🔍 Validated Scan #52
+2025-05-30 10:22:41,640 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:41,640 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:41,640 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:42,099 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:42,099 - INFO - ✅ Scan #52 complete - Validated trades: 0
+2025-05-30 10:22:42,099 - INFO - --------------------------------------------------
+2025-05-30 10:23:12,261 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:12,261 - INFO - 🔍 Validated Scan #53
+2025-05-30 10:23:12,727 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:12,727 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:12,727 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:13,546 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:13,546 - INFO - ✅ Scan #53 complete - Validated trades: 0
+2025-05-30 10:23:13,546 - INFO - --------------------------------------------------
+2025-05-30 10:23:43,722 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:43,722 - INFO - 🔍 Validated Scan #54
+2025-05-30 10:23:44,345 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:44,345 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:44,345 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:45,155 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:45,155 - INFO - ✅ Scan #54 complete - Validated trades: 0
+2025-05-30 10:23:45,156 - INFO - --------------------------------------------------
+2025-05-30 10:24:15,306 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:15,307 - INFO - 🔍 Validated Scan #55
+2025-05-30 10:24:16,057 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:16,057 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:16,057 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:16,432 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:16,432 - INFO - ✅ Scan #55 complete - Validated trades: 0
+2025-05-30 10:24:16,432 - INFO - --------------------------------------------------
+2025-05-30 10:24:46,595 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:46,596 - INFO - 🔍 Validated Scan #56
+2025-05-30 10:24:47,257 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:47,257 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:47,257 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:47,629 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:47,630 - INFO - ✅ Scan #56 complete - Validated trades: 0
+2025-05-30 10:24:47,630 - INFO - --------------------------------------------------
+2025-05-30 10:25:17,820 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:17,820 - INFO - 🔍 Validated Scan #57
+2025-05-30 10:25:18,555 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:25:18,555 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:25:18,555 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:25:19,016 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:25:19,016 - INFO - ✅ Scan #57 complete - Validated trades: 0
+2025-05-30 10:25:19,016 - INFO - --------------------------------------------------
+2025-05-30 10:25:49,198 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:49,198 - INFO - 🔍 Validated Scan #58
+2025-05-30 10:25:49,843 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:25:49,843 - INFO - ✅ Scan #58 complete - Validated trades: 0
+2025-05-30 10:25:49,843 - INFO - --------------------------------------------------
+2025-05-30 10:26:20,058 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:20,059 - INFO - 🔍 Validated Scan #59
+2025-05-30 10:26:20,702 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:20,702 - INFO - ✅ Scan #59 complete - Validated trades: 0
+2025-05-30 10:26:20,702 - INFO - --------------------------------------------------
+2025-05-30 10:26:50,864 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:50,864 - INFO - 🔍 Validated Scan #60
+2025-05-30 10:26:51,551 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:51,552 - INFO - ✅ Scan #60 complete - Validated trades: 0
+2025-05-30 10:26:51,552 - INFO - --------------------------------------------------
+2025-05-30 10:27:21,724 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:21,724 - INFO - 🔍 Validated Scan #61
+2025-05-30 10:27:22,359 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:22,359 - INFO - ✅ Scan #61 complete - Validated trades: 0
+2025-05-30 10:27:22,359 - INFO - --------------------------------------------------
+2025-05-30 10:27:52,536 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:52,536 - INFO - 🔍 Validated Scan #62
+2025-05-30 10:27:53,337 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:53,337 - INFO - ✅ Scan #62 complete - Validated trades: 0
+2025-05-30 10:27:53,337 - INFO - --------------------------------------------------
+2025-05-30 10:28:23,505 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:23,505 - INFO - 🔍 Validated Scan #63
+2025-05-30 10:28:24,133 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:24,133 - INFO - ✅ Scan #63 complete - Validated trades: 0
+2025-05-30 10:28:24,133 - INFO - --------------------------------------------------
+2025-05-30 10:28:54,311 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:54,311 - INFO - 🔍 Validated Scan #64
+2025-05-30 10:28:54,962 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:54,962 - INFO - ✅ Scan #64 complete - Validated trades: 0
+2025-05-30 10:28:54,962 - INFO - --------------------------------------------------
+2025-05-30 10:29:25,164 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:25,164 - INFO - 🔍 Validated Scan #65
+2025-05-30 10:29:25,845 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:25,845 - INFO - ✅ Scan #65 complete - Validated trades: 0
+2025-05-30 10:29:25,845 - INFO - --------------------------------------------------
+2025-05-30 10:29:56,008 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:56,008 - INFO - 🔍 Validated Scan #66
+2025-05-30 10:29:56,674 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:56,675 - INFO - ✅ Scan #66 complete - Validated trades: 0
+2025-05-30 10:29:56,675 - INFO - --------------------------------------------------
+2025-05-30 10:30:26,894 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:26,894 - INFO - 🔍 Validated Scan #67
+2025-05-30 10:30:27,561 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:27,561 - INFO - ✅ Scan #67 complete - Validated trades: 0
+2025-05-30 10:30:27,561 - INFO - --------------------------------------------------
+2025-05-30 10:30:57,742 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:57,743 - INFO - 🔍 Validated Scan #68
+2025-05-30 10:30:58,522 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:58,522 - INFO - ✅ Scan #68 complete - Validated trades: 0
+2025-05-30 10:30:58,522 - INFO - --------------------------------------------------
+2025-05-30 10:31:28,704 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:28,704 - INFO - 🔍 Validated Scan #69
+2025-05-30 10:31:29,354 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:29,354 - INFO - ✅ Scan #69 complete - Validated trades: 0
+2025-05-30 10:31:29,354 - INFO - --------------------------------------------------
+2025-05-30 10:31:59,526 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:59,526 - INFO - 🔍 Validated Scan #70
+2025-05-30 10:32:00,255 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:00,255 - INFO - ✅ Scan #70 complete - Validated trades: 0
+2025-05-30 10:32:00,255 - INFO - --------------------------------------------------
+2025-05-30 10:32:30,416 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:30,416 - INFO - 🔍 Validated Scan #71
+2025-05-30 10:32:31,106 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:31,106 - INFO - ✅ Scan #71 complete - Validated trades: 0
+2025-05-30 10:32:31,106 - INFO - --------------------------------------------------
+025-05-30 10:14:24,730 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:25,113 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:25,113 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:25,113 - INFO - ✅ Scan #15 complete - Validated trades: 0
+2025-05-30 10:14:25,113 - INFO - ✅ Scan #15 complete - Validated trades: 0
+2025-05-30 10:14:25,113 - INFO - --------------------------------------------------
+2025-05-30 10:14:25,113 - INFO - --------------------------------------------------
+2025-05-30 10:14:53,728 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:14:53,728 - INFO - 🔍 Validated Scan #37
+2025-05-30 10:14:54,203 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:54,203 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:14:54,203 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:14:54,704 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:54,704 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:14:54,705 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:14:55,105 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:55,478 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:55,479 - INFO - ✅ Scan #37 complete - Validated trades: 0
+2025-05-30 10:14:55,479 - INFO - --------------------------------------------------
+2025-05-30 10:14:55,586 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:14:55,586 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:14:55,587 - INFO - 🔍 Validated Scan #16
+2025-05-30 10:14:55,587 - INFO - 🔍 Validated Scan #16
+2025-05-30 10:14:55,830 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:55,830 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:55,830 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:14:55,830 - INFO -    EURUSD - bollinger: PUT (80.0% confidence)
+2025-05-30 10:14:55,830 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:14:55,830 - INFO -    Backtest Performance: 57.4% win rate
+2025-05-30 10:14:56,301 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:56,301 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:14:56,301 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:14:56,301 - INFO -    EURUSD - combined: PUT (80.0% confidence)
+2025-05-30 10:14:56,301 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:14:56,301 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:14:56,927 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:56,927 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:57,327 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:57,327 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:14:57,327 - INFO - ✅ Scan #16 complete - Validated trades: 0
+2025-05-30 10:14:57,327 - INFO - ✅ Scan #16 complete - Validated trades: 0
+2025-05-30 10:14:57,327 - INFO - --------------------------------------------------
+2025-05-30 10:14:57,327 - INFO - --------------------------------------------------
+2025-05-30 10:15:25,659 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:25,659 - INFO - 🔍 Validated Scan #38
+2025-05-30 10:15:26,429 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:26,429 - INFO - ✅ Scan #38 complete - Validated trades: 0
+2025-05-30 10:15:26,429 - INFO - --------------------------------------------------
+2025-05-30 10:15:27,506 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:27,506 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:27,506 - INFO - 🔍 Validated Scan #17
+2025-05-30 10:15:27,506 - INFO - 🔍 Validated Scan #17
+2025-05-30 10:15:28,337 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:28,337 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:28,337 - INFO - ✅ Scan #17 complete - Validated trades: 0
+2025-05-30 10:15:28,337 - INFO - ✅ Scan #17 complete - Validated trades: 0
+2025-05-30 10:15:28,337 - INFO - --------------------------------------------------
+2025-05-30 10:15:28,337 - INFO - --------------------------------------------------
+2025-05-30 10:15:56,606 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:56,606 - INFO - 🔍 Validated Scan #39
+2025-05-30 10:15:57,305 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:57,305 - INFO - ✅ Scan #39 complete - Validated trades: 0
+2025-05-30 10:15:57,305 - INFO - --------------------------------------------------
+2025-05-30 10:15:58,492 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:58,492 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:15:58,493 - INFO - 🔍 Validated Scan #18
+2025-05-30 10:15:58,493 - INFO - 🔍 Validated Scan #18
+2025-05-30 10:15:59,155 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:59,155 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:15:59,155 - INFO - ✅ Scan #18 complete - Validated trades: 0
+2025-05-30 10:15:59,155 - INFO - ✅ Scan #18 complete - Validated trades: 0
+2025-05-30 10:15:59,155 - INFO - --------------------------------------------------
+2025-05-30 10:15:59,155 - INFO - --------------------------------------------------
+2025-05-30 10:16:27,467 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:27,467 - INFO - 🔍 Validated Scan #40
+2025-05-30 10:16:28,142 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:28,142 - INFO - ✅ Scan #40 complete - Validated trades: 0
+2025-05-30 10:16:28,142 - INFO - --------------------------------------------------
+2025-05-30 10:16:29,339 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:29,339 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:29,339 - INFO - 🔍 Validated Scan #19
+2025-05-30 10:16:29,339 - INFO - 🔍 Validated Scan #19
+2025-05-30 10:16:30,055 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:30,055 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:30,055 - INFO - ✅ Scan #19 complete - Validated trades: 0
+2025-05-30 10:16:30,055 - INFO - ✅ Scan #19 complete - Validated trades: 0
+2025-05-30 10:16:30,055 - INFO - --------------------------------------------------
+2025-05-30 10:16:30,055 - INFO - --------------------------------------------------
+2025-05-30 10:16:58,324 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:16:58,324 - INFO - 🔍 Validated Scan #41
+2025-05-30 10:16:59,087 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:16:59,087 - INFO - ✅ Scan #41 complete - Validated trades: 0
+2025-05-30 10:16:59,087 - INFO - --------------------------------------------------
+2025-05-30 10:17:00,251 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:00,251 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:00,251 - INFO - 🔍 Validated Scan #20
+2025-05-30 10:17:00,251 - INFO - 🔍 Validated Scan #20
+2025-05-30 10:17:00,971 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:00,971 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:00,971 - INFO - ✅ Scan #20 complete - Validated trades: 0
+2025-05-30 10:17:00,971 - INFO - ✅ Scan #20 complete - Validated trades: 0
+2025-05-30 10:17:00,971 - INFO - --------------------------------------------------
+2025-05-30 10:17:00,971 - INFO - --------------------------------------------------
+2025-05-30 10:17:29,267 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:29,268 - INFO - 🔍 Validated Scan #42
+2025-05-30 10:17:30,108 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:30,108 - INFO - ✅ Scan #42 complete - Validated trades: 0
+2025-05-30 10:17:30,108 - INFO - --------------------------------------------------
+2025-05-30 10:17:31,148 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:31,148 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:17:31,148 - INFO - 🔍 Validated Scan #21
+2025-05-30 10:17:31,148 - INFO - 🔍 Validated Scan #21
+2025-05-30 10:17:31,891 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:31,891 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:17:31,891 - INFO - ✅ Scan #21 complete - Validated trades: 0
+2025-05-30 10:17:31,891 - INFO - ✅ Scan #21 complete - Validated trades: 0
+2025-05-30 10:17:31,891 - INFO - --------------------------------------------------
+2025-05-30 10:17:31,891 - INFO - --------------------------------------------------
+2025-05-30 10:18:00,270 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:00,270 - INFO - 🔍 Validated Scan #43
+2025-05-30 10:18:01,023 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:01,023 - INFO - ✅ Scan #43 complete - Validated trades: 0
+2025-05-30 10:18:01,023 - INFO - --------------------------------------------------
+2025-05-30 10:18:02,081 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:02,081 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:02,081 - INFO - 🔍 Validated Scan #22
+2025-05-30 10:18:02,081 - INFO - 🔍 Validated Scan #22
+2025-05-30 10:18:02,798 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:02,798 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:02,798 - INFO - ✅ Scan #22 complete - Validated trades: 0
+2025-05-30 10:18:02,798 - INFO - ✅ Scan #22 complete - Validated trades: 0
+2025-05-30 10:18:02,798 - INFO - --------------------------------------------------
+2025-05-30 10:18:02,798 - INFO - --------------------------------------------------
+2025-05-30 10:18:31,193 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:31,193 - INFO - 🔍 Validated Scan #44
+2025-05-30 10:18:31,880 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:31,880 - INFO - ✅ Scan #44 complete - Validated trades: 0
+2025-05-30 10:18:31,880 - INFO - --------------------------------------------------
+2025-05-30 10:18:32,982 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:32,982 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:18:32,982 - INFO - 🔍 Validated Scan #23
+2025-05-30 10:18:32,982 - INFO - 🔍 Validated Scan #23
+2025-05-30 10:18:33,661 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:33,661 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:18:33,661 - INFO - ✅ Scan #23 complete - Validated trades: 0
+2025-05-30 10:18:33,661 - INFO - ✅ Scan #23 complete - Validated trades: 0
+2025-05-30 10:18:33,661 - INFO - --------------------------------------------------
+2025-05-30 10:18:33,661 - INFO - --------------------------------------------------
+2025-05-30 10:19:02,037 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:02,038 - INFO - 🔍 Validated Scan #45
+2025-05-30 10:19:02,730 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:02,730 - INFO - ✅ Scan #45 complete - Validated trades: 0
+2025-05-30 10:19:02,730 - INFO - --------------------------------------------------
+2025-05-30 10:19:03,844 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:03,844 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:03,844 - INFO - 🔍 Validated Scan #24
+2025-05-30 10:19:03,844 - INFO - 🔍 Validated Scan #24
+2025-05-30 10:19:04,538 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:04,538 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:04,538 - INFO - ✅ Scan #24 complete - Validated trades: 0
+2025-05-30 10:19:04,538 - INFO - ✅ Scan #24 complete - Validated trades: 0
+2025-05-30 10:19:04,538 - INFO - --------------------------------------------------
+2025-05-30 10:19:04,538 - INFO - --------------------------------------------------
+2025-05-30 10:19:32,908 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:32,908 - INFO - 🔍 Validated Scan #46
+2025-05-30 10:19:33,637 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:33,637 - INFO - ✅ Scan #46 complete - Validated trades: 0
+2025-05-30 10:19:33,637 - INFO - --------------------------------------------------
+2025-05-30 10:19:34,703 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:34,703 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:19:34,703 - INFO - 🔍 Validated Scan #25
+2025-05-30 10:19:34,703 - INFO - 🔍 Validated Scan #25
+2025-05-30 10:19:35,387 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:35,387 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:19:35,387 - INFO - ✅ Scan #25 complete - Validated trades: 0
+2025-05-30 10:19:35,387 - INFO - ✅ Scan #25 complete - Validated trades: 0
+2025-05-30 10:19:35,387 - INFO - --------------------------------------------------
+2025-05-30 10:19:35,387 - INFO - --------------------------------------------------
+2025-05-30 10:20:03,802 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:03,802 - INFO - 🔍 Validated Scan #47
+2025-05-30 10:20:04,521 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:04,521 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:04,521 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:04,909 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:04,912 - INFO - ✅ Scan #47 complete - Validated trades: 0
+2025-05-30 10:20:04,912 - INFO - --------------------------------------------------
+2025-05-30 10:20:05,584 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:05,584 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:05,584 - INFO - 🔍 Validated Scan #26
+2025-05-30 10:20:05,584 - INFO - 🔍 Validated Scan #26
+2025-05-30 10:20:06,360 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:06,360 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:06,360 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:06,360 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:06,360 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:06,360 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:06,747 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:06,747 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:06,747 - INFO - ✅ Scan #26 complete - Validated trades: 0
+2025-05-30 10:20:06,747 - INFO - ✅ Scan #26 complete - Validated trades: 0
+2025-05-30 10:20:06,747 - INFO - --------------------------------------------------
+2025-05-30 10:20:06,747 - INFO - --------------------------------------------------
+2025-05-30 10:20:35,107 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:35,107 - INFO - 🔍 Validated Scan #48
+2025-05-30 10:20:35,834 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:35,834 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:35,834 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:36,256 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:36,256 - INFO - ✅ Scan #48 complete - Validated trades: 0
+2025-05-30 10:20:36,256 - INFO - --------------------------------------------------
+2025-05-30 10:20:36,908 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:36,908 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:20:36,909 - INFO - 🔍 Validated Scan #27
+2025-05-30 10:20:36,909 - INFO - 🔍 Validated Scan #27
+2025-05-30 10:20:37,611 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:37,611 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:20:37,611 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:37,611 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:20:37,611 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:37,611 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:20:38,008 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:38,008 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:20:38,008 - INFO - ✅ Scan #27 complete - Validated trades: 0
+2025-05-30 10:20:38,008 - INFO - ✅ Scan #27 complete - Validated trades: 0
+2025-05-30 10:20:38,008 - INFO - --------------------------------------------------
+2025-05-30 10:20:38,008 - INFO - --------------------------------------------------
+2025-05-30 10:21:06,433 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:06,433 - INFO - 🔍 Validated Scan #49
+2025-05-30 10:21:07,305 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:07,305 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:07,305 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:07,903 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:07,903 - INFO - ✅ Scan #49 complete - Validated trades: 0
+2025-05-30 10:21:07,903 - INFO - --------------------------------------------------
+2025-05-30 10:21:08,192 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:08,192 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:08,192 - INFO - 🔍 Validated Scan #28
+2025-05-30 10:21:08,192 - INFO - 🔍 Validated Scan #28
+2025-05-30 10:21:08,909 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:08,909 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:08,909 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:08,909 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:08,909 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:08,909 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:09,456 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:09,456 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:09,457 - INFO - ✅ Scan #28 complete - Validated trades: 0
+2025-05-30 10:21:09,457 - INFO - ✅ Scan #28 complete - Validated trades: 0
+2025-05-30 10:21:09,457 - INFO - --------------------------------------------------
+2025-05-30 10:21:09,457 - INFO - --------------------------------------------------
+2025-05-30 10:21:38,087 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:38,087 - INFO - 🔍 Validated Scan #50
+2025-05-30 10:21:38,829 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:38,829 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:38,829 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:39,221 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:39,222 - INFO - ✅ Scan #50 complete - Validated trades: 0
+2025-05-30 10:21:39,222 - INFO - --------------------------------------------------
+2025-05-30 10:21:39,681 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:39,681 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:21:39,681 - INFO - 🔍 Validated Scan #29
+2025-05-30 10:21:39,681 - INFO - 🔍 Validated Scan #29
+2025-05-30 10:21:47,438 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:47,438 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:21:47,438 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:47,438 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:21:47,438 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:47,438 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:21:48,304 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:48,304 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:21:48,305 - INFO - ✅ Scan #29 complete - Validated trades: 0
+2025-05-30 10:21:48,305 - INFO - ✅ Scan #29 complete - Validated trades: 0
+2025-05-30 10:21:48,305 - INFO - --------------------------------------------------
+2025-05-30 10:21:48,305 - INFO - --------------------------------------------------
+2025-05-30 10:22:09,393 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:09,393 - INFO - 🔍 Validated Scan #51
+2025-05-30 10:22:10,207 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:10,208 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:10,208 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:10,621 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:10,622 - INFO - ✅ Scan #51 complete - Validated trades: 0
+2025-05-30 10:22:10,622 - INFO - --------------------------------------------------
+2025-05-30 10:22:18,561 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:18,561 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:18,561 - INFO - 🔍 Validated Scan #30
+2025-05-30 10:22:18,561 - INFO - 🔍 Validated Scan #30
+2025-05-30 10:22:19,244 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:19,244 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:19,244 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:19,244 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:19,244 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:19,244 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:19,632 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:19,632 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:19,632 - INFO - ✅ Scan #30 complete - Validated trades: 0
+2025-05-30 10:22:19,632 - INFO - ✅ Scan #30 complete - Validated trades: 0
+2025-05-30 10:22:19,632 - INFO - --------------------------------------------------
+2025-05-30 10:22:19,632 - INFO - --------------------------------------------------
+2025-05-30 10:22:40,867 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:40,867 - INFO - 🔍 Validated Scan #52
+2025-05-30 10:22:41,640 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:41,640 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:41,640 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:42,099 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:42,099 - INFO - ✅ Scan #52 complete - Validated trades: 0
+2025-05-30 10:22:42,099 - INFO - --------------------------------------------------
+2025-05-30 10:22:49,793 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:49,793 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:22:49,793 - INFO - 🔍 Validated Scan #31
+2025-05-30 10:22:49,793 - INFO - 🔍 Validated Scan #31
+2025-05-30 10:22:50,435 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:50,435 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:22:50,435 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:50,435 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:22:50,435 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:50,435 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:22:50,812 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:50,812 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:22:50,812 - INFO - ✅ Scan #31 complete - Validated trades: 0
+2025-05-30 10:22:50,812 - INFO - ✅ Scan #31 complete - Validated trades: 0
+2025-05-30 10:22:50,812 - INFO - --------------------------------------------------
+2025-05-30 10:22:50,812 - INFO - --------------------------------------------------
+2025-05-30 10:23:12,261 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:12,261 - INFO - 🔍 Validated Scan #53
+2025-05-30 10:23:12,727 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:12,727 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:12,727 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:13,546 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:13,546 - INFO - ✅ Scan #53 complete - Validated trades: 0
+2025-05-30 10:23:13,546 - INFO - --------------------------------------------------
+2025-05-30 10:23:20,982 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:20,982 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:20,982 - INFO - 🔍 Validated Scan #32
+2025-05-30 10:23:20,982 - INFO - 🔍 Validated Scan #32
+2025-05-30 10:23:21,446 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:21,446 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:21,446 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:21,446 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:21,446 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:21,446 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:22,297 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:22,297 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:22,297 - INFO - ✅ Scan #32 complete - Validated trades: 0
+2025-05-30 10:23:22,297 - INFO - ✅ Scan #32 complete - Validated trades: 0
+2025-05-30 10:23:22,297 - INFO - --------------------------------------------------
+2025-05-30 10:23:22,297 - INFO - --------------------------------------------------
+2025-05-30 10:23:43,722 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:43,722 - INFO - 🔍 Validated Scan #54
+2025-05-30 10:23:44,345 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:44,345 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:44,345 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:45,155 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:45,155 - INFO - ✅ Scan #54 complete - Validated trades: 0
+2025-05-30 10:23:45,156 - INFO - --------------------------------------------------
+2025-05-30 10:23:52,471 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:52,471 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:23:52,471 - INFO - 🔍 Validated Scan #33
+2025-05-30 10:23:52,471 - INFO - 🔍 Validated Scan #33
+2025-05-30 10:23:53,095 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:53,095 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:53,095 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:53,095 - INFO -    EURUSD - macd: PUT (75.0% confidence)
+2025-05-30 10:23:53,095 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:53,095 - INFO -    Backtest Performance: 57.1% win rate
+2025-05-30 10:23:53,322 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:53,322 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:23:53,323 - INFO -    EURUSD - combined: PUT (75.0% confidence)
+2025-05-30 10:23:53,323 - INFO -    EURUSD - combined: PUT (75.0% confidence)
+2025-05-30 10:23:53,323 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:23:53,323 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:23:53,898 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:53,898 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:54,323 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:54,323 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:23:54,323 - INFO - ✅ Scan #33 complete - Validated trades: 0
+2025-05-30 10:23:54,323 - INFO - ✅ Scan #33 complete - Validated trades: 0
+2025-05-30 10:23:54,323 - INFO - --------------------------------------------------
+2025-05-30 10:23:54,323 - INFO - --------------------------------------------------
+2025-05-30 10:24:15,306 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:15,307 - INFO - 🔍 Validated Scan #55
+2025-05-30 10:24:16,057 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:16,057 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:16,057 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:16,432 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:16,432 - INFO - ✅ Scan #55 complete - Validated trades: 0
+2025-05-30 10:24:16,432 - INFO - --------------------------------------------------
+2025-05-30 10:24:24,537 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:24,537 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:24,537 - INFO - 🔍 Validated Scan #34
+2025-05-30 10:24:24,537 - INFO - 🔍 Validated Scan #34
+2025-05-30 10:24:25,234 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:25,234 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:25,234 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:25,234 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:25,234 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:25,234 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:25,622 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:25,622 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:25,622 - INFO - ✅ Scan #34 complete - Validated trades: 0
+2025-05-30 10:24:25,622 - INFO - ✅ Scan #34 complete - Validated trades: 0
+2025-05-30 10:24:25,622 - INFO - --------------------------------------------------
+2025-05-30 10:24:25,622 - INFO - --------------------------------------------------
+2025-05-30 10:24:46,595 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:46,596 - INFO - 🔍 Validated Scan #56
+2025-05-30 10:24:47,257 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:24:47,257 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:24:47,257 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:24:47,629 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:24:47,630 - INFO - ✅ Scan #56 complete - Validated trades: 0
+2025-05-30 10:24:47,630 - INFO - --------------------------------------------------
+2025-05-30 10:24:57,144 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:57,144 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:24:57,145 - INFO - 🔍 Validated Scan #35
+2025-05-30 10:24:57,145 - INFO - 🔍 Validated Scan #35
+2025-05-30 10:25:01,706 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:25:01,706 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:25:01,706 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:25:01,706 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:25:01,706 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:25:01,706 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:25:05,097 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:25:05,097 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:25:05,097 - INFO - ✅ Scan #35 complete - Validated trades: 0
+2025-05-30 10:25:05,097 - INFO - ✅ Scan #35 complete - Validated trades: 0
+2025-05-30 10:25:05,097 - INFO - --------------------------------------------------
+2025-05-30 10:25:05,097 - INFO - --------------------------------------------------
+2025-05-30 10:25:17,820 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:17,820 - INFO - 🔍 Validated Scan #57
+2025-05-30 10:25:18,555 - INFO - 🔍 VALIDATED OPPORTUNITY!
+2025-05-30 10:25:18,555 - INFO -    EURUSD - combined: CALL (82.0% confidence)
+2025-05-30 10:25:18,555 - INFO -    Backtest Performance: Expected 60%+ win rate
+2025-05-30 10:25:19,016 - WARNING - Trade failed: Trade execution failed: Trade execution failed
+2025-05-30 10:25:19,016 - INFO - ✅ Scan #57 complete - Validated trades: 0
+2025-05-30 10:25:19,016 - INFO - --------------------------------------------------
+2025-05-30 10:25:35,281 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:35,281 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:35,281 - INFO - 🔍 Validated Scan #36
+2025-05-30 10:25:35,281 - INFO - 🔍 Validated Scan #36
+2025-05-30 10:25:35,929 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:25:35,929 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:25:35,929 - INFO - ✅ Scan #36 complete - Validated trades: 0
+2025-05-30 10:25:35,929 - INFO - ✅ Scan #36 complete - Validated trades: 0
+2025-05-30 10:25:35,929 - INFO - --------------------------------------------------
+2025-05-30 10:25:35,929 - INFO - --------------------------------------------------
+2025-05-30 10:25:49,198 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:25:49,198 - INFO - 🔍 Validated Scan #58
+2025-05-30 10:25:49,843 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:25:49,843 - INFO - ✅ Scan #58 complete - Validated trades: 0
+2025-05-30 10:25:49,843 - INFO - --------------------------------------------------
+2025-05-30 10:26:06,157 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:06,157 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:06,157 - INFO - 🔍 Validated Scan #37
+2025-05-30 10:26:06,157 - INFO - 🔍 Validated Scan #37
+2025-05-30 10:26:06,857 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:06,857 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:06,858 - INFO - ✅ Scan #37 complete - Validated trades: 0
+2025-05-30 10:26:06,858 - INFO - ✅ Scan #37 complete - Validated trades: 0
+2025-05-30 10:26:06,858 - INFO - --------------------------------------------------
+2025-05-30 10:26:06,858 - INFO - --------------------------------------------------
+2025-05-30 10:26:20,058 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:20,059 - INFO - 🔍 Validated Scan #59
+2025-05-30 10:26:20,702 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:20,702 - INFO - ✅ Scan #59 complete - Validated trades: 0
+2025-05-30 10:26:20,702 - INFO - --------------------------------------------------
+2025-05-30 10:26:37,037 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:37,037 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:37,037 - INFO - 🔍 Validated Scan #38
+2025-05-30 10:26:37,037 - INFO - 🔍 Validated Scan #38
+2025-05-30 10:26:37,787 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:37,787 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:37,787 - INFO - ✅ Scan #38 complete - Validated trades: 0
+2025-05-30 10:26:37,787 - INFO - ✅ Scan #38 complete - Validated trades: 0
+2025-05-30 10:26:37,787 - INFO - --------------------------------------------------
+2025-05-30 10:26:37,787 - INFO - --------------------------------------------------
+2025-05-30 10:26:50,864 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:26:50,864 - INFO - 🔍 Validated Scan #60
+2025-05-30 10:26:51,551 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:26:51,552 - INFO - ✅ Scan #60 complete - Validated trades: 0
+2025-05-30 10:26:51,552 - INFO - --------------------------------------------------
+2025-05-30 10:27:07,969 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:07,969 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:07,969 - INFO - 🔍 Validated Scan #39
+2025-05-30 10:27:07,969 - INFO - 🔍 Validated Scan #39
+2025-05-30 10:27:08,687 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:08,687 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:08,687 - INFO - ✅ Scan #39 complete - Validated trades: 0
+2025-05-30 10:27:08,687 - INFO - ✅ Scan #39 complete - Validated trades: 0
+2025-05-30 10:27:08,687 - INFO - --------------------------------------------------
+2025-05-30 10:27:08,687 - INFO - --------------------------------------------------
+2025-05-30 10:27:21,724 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:21,724 - INFO - 🔍 Validated Scan #61
+2025-05-30 10:27:22,359 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:22,359 - INFO - ✅ Scan #61 complete - Validated trades: 0
+2025-05-30 10:27:22,359 - INFO - --------------------------------------------------
+2025-05-30 10:27:38,867 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:38,867 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:38,867 - INFO - 🔍 Validated Scan #40
+2025-05-30 10:27:38,867 - INFO - 🔍 Validated Scan #40
+2025-05-30 10:27:39,606 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:39,606 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:39,606 - INFO - ✅ Scan #40 complete - Validated trades: 0
+2025-05-30 10:27:39,606 - INFO - ✅ Scan #40 complete - Validated trades: 0
+2025-05-30 10:27:39,606 - INFO - --------------------------------------------------
+2025-05-30 10:27:39,606 - INFO - --------------------------------------------------
+2025-05-30 10:27:52,536 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:27:52,536 - INFO - 🔍 Validated Scan #62
+2025-05-30 10:27:53,337 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:27:53,337 - INFO - ✅ Scan #62 complete - Validated trades: 0
+2025-05-30 10:27:53,337 - INFO - --------------------------------------------------
+2025-05-30 10:28:09,782 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:09,782 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:09,783 - INFO - 🔍 Validated Scan #41
+2025-05-30 10:28:09,783 - INFO - 🔍 Validated Scan #41
+2025-05-30 10:28:10,477 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:10,477 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:10,477 - INFO - ✅ Scan #41 complete - Validated trades: 0
+2025-05-30 10:28:10,477 - INFO - ✅ Scan #41 complete - Validated trades: 0
+2025-05-30 10:28:10,477 - INFO - --------------------------------------------------
+2025-05-30 10:28:10,477 - INFO - --------------------------------------------------
+2025-05-30 10:28:23,505 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:23,505 - INFO - 🔍 Validated Scan #63
+2025-05-30 10:28:24,133 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:24,133 - INFO - ✅ Scan #63 complete - Validated trades: 0
+2025-05-30 10:28:24,133 - INFO - --------------------------------------------------
+2025-05-30 10:28:40,660 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:40,660 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:40,660 - INFO - 🔍 Validated Scan #42
+2025-05-30 10:28:40,660 - INFO - 🔍 Validated Scan #42
+2025-05-30 10:28:41,329 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:41,329 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:41,329 - INFO - ✅ Scan #42 complete - Validated trades: 0
+2025-05-30 10:28:41,329 - INFO - ✅ Scan #42 complete - Validated trades: 0
+2025-05-30 10:28:41,329 - INFO - --------------------------------------------------
+2025-05-30 10:28:41,329 - INFO - --------------------------------------------------
+2025-05-30 10:28:54,311 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:28:54,311 - INFO - 🔍 Validated Scan #64
+2025-05-30 10:28:54,962 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:28:54,962 - INFO - ✅ Scan #64 complete - Validated trades: 0
+2025-05-30 10:28:54,962 - INFO - --------------------------------------------------
+2025-05-30 10:29:11,516 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:11,516 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:11,516 - INFO - 🔍 Validated Scan #43
+2025-05-30 10:29:11,516 - INFO - 🔍 Validated Scan #43
+2025-05-30 10:29:12,183 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:12,183 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:12,183 - INFO - ✅ Scan #43 complete - Validated trades: 0
+2025-05-30 10:29:12,183 - INFO - ✅ Scan #43 complete - Validated trades: 0
+2025-05-30 10:29:12,183 - INFO - --------------------------------------------------
+2025-05-30 10:29:12,183 - INFO - --------------------------------------------------
+2025-05-30 10:29:25,164 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:25,164 - INFO - 🔍 Validated Scan #65
+2025-05-30 10:29:25,845 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:25,845 - INFO - ✅ Scan #65 complete - Validated trades: 0
+2025-05-30 10:29:25,845 - INFO - --------------------------------------------------
+2025-05-30 10:29:42,361 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:42,361 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:42,361 - INFO - 🔍 Validated Scan #44
+2025-05-30 10:29:42,361 - INFO - 🔍 Validated Scan #44
+2025-05-30 10:29:43,080 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:43,080 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:43,080 - INFO - ✅ Scan #44 complete - Validated trades: 0
+2025-05-30 10:29:43,080 - INFO - ✅ Scan #44 complete - Validated trades: 0
+2025-05-30 10:29:43,080 - INFO - --------------------------------------------------
+2025-05-30 10:29:43,080 - INFO - --------------------------------------------------
+2025-05-30 10:29:56,008 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:29:56,008 - INFO - 🔍 Validated Scan #66
+2025-05-30 10:29:56,674 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:29:56,675 - INFO - ✅ Scan #66 complete - Validated trades: 0
+2025-05-30 10:29:56,675 - INFO - --------------------------------------------------
+2025-05-30 10:30:13,257 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:13,257 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:13,257 - INFO - 🔍 Validated Scan #45
+2025-05-30 10:30:13,257 - INFO - 🔍 Validated Scan #45
+2025-05-30 10:30:13,898 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:13,898 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:13,898 - INFO - ✅ Scan #45 complete - Validated trades: 0
+2025-05-30 10:30:13,898 - INFO - ✅ Scan #45 complete - Validated trades: 0
+2025-05-30 10:30:13,898 - INFO - --------------------------------------------------
+2025-05-30 10:30:13,898 - INFO - --------------------------------------------------
+2025-05-30 10:30:26,894 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:26,894 - INFO - 🔍 Validated Scan #67
+2025-05-30 10:30:27,561 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:27,561 - INFO - ✅ Scan #67 complete - Validated trades: 0
+2025-05-30 10:30:27,561 - INFO - --------------------------------------------------
+2025-05-30 10:30:44,067 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:44,067 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:44,067 - INFO - 🔍 Validated Scan #46
+2025-05-30 10:30:44,067 - INFO - 🔍 Validated Scan #46
+2025-05-30 10:30:44,865 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:44,865 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:44,866 - INFO - ✅ Scan #46 complete - Validated trades: 0
+2025-05-30 10:30:44,866 - INFO - ✅ Scan #46 complete - Validated trades: 0
+2025-05-30 10:30:44,866 - INFO - --------------------------------------------------
+2025-05-30 10:30:44,866 - INFO - --------------------------------------------------
+2025-05-30 10:30:57,742 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:30:57,743 - INFO - 🔍 Validated Scan #68
+2025-05-30 10:30:58,522 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:30:58,522 - INFO - ✅ Scan #68 complete - Validated trades: 0
+2025-05-30 10:30:58,522 - INFO - --------------------------------------------------
+2025-05-30 10:31:15,028 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:15,028 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:15,028 - INFO - 🔍 Validated Scan #47
+2025-05-30 10:31:15,028 - INFO - 🔍 Validated Scan #47
+2025-05-30 10:31:15,726 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:15,726 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:15,726 - INFO - ✅ Scan #47 complete - Validated trades: 0
+2025-05-30 10:31:15,726 - INFO - ✅ Scan #47 complete - Validated trades: 0
+2025-05-30 10:31:15,726 - INFO - --------------------------------------------------
+2025-05-30 10:31:15,726 - INFO - --------------------------------------------------
+2025-05-30 10:31:28,704 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:28,704 - INFO - 🔍 Validated Scan #69
+2025-05-30 10:31:29,354 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:29,354 - INFO - ✅ Scan #69 complete - Validated trades: 0
+2025-05-30 10:31:29,354 - INFO - --------------------------------------------------
+2025-05-30 10:31:45,900 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:45,900 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:45,900 - INFO - 🔍 Validated Scan #48
+2025-05-30 10:31:45,900 - INFO - 🔍 Validated Scan #48
+2025-05-30 10:31:46,609 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:46,609 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:31:46,609 - INFO - ✅ Scan #48 complete - Validated trades: 0
+2025-05-30 10:31:46,609 - INFO - ✅ Scan #48 complete - Validated trades: 0
+2025-05-30 10:31:46,609 - INFO - --------------------------------------------------
+2025-05-30 10:31:46,609 - INFO - --------------------------------------------------
+2025-05-30 10:31:59,526 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:31:59,526 - INFO - 🔍 Validated Scan #70
+2025-05-30 10:32:00,255 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:00,255 - INFO - ✅ Scan #70 complete - Validated trades: 0
+2025-05-30 10:32:00,255 - INFO - --------------------------------------------------
+2025-05-30 10:32:16,798 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:16,798 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:16,798 - INFO - 🔍 Validated Scan #49
+2025-05-30 10:32:16,798 - INFO - 🔍 Validated Scan #49
+2025-05-30 10:32:17,455 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:17,455 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:17,455 - INFO - ✅ Scan #49 complete - Validated trades: 0
+2025-05-30 10:32:17,455 - INFO - ✅ Scan #49 complete - Validated trades: 0
+2025-05-30 10:32:17,455 - INFO - --------------------------------------------------
+2025-05-30 10:32:17,455 - INFO - --------------------------------------------------
+2025-05-30 10:32:30,416 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:30,416 - INFO - 🔍 Validated Scan #71
+2025-05-30 10:32:31,106 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:31,106 - INFO - ✅ Scan #71 complete - Validated trades: 0
+2025-05-30 10:32:31,106 - INFO - --------------------------------------------------
+2025-05-30 10:32:47,666 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:47,666 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:32:47,666 - INFO - 🔍 Validated Scan #50
+2025-05-30 10:32:47,666 - INFO - 🔍 Validated Scan #50
+2025-05-30 10:32:48,408 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:48,408 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:32:48,408 - INFO - ✅ Scan #50 complete - Validated trades: 0
+2025-05-30 10:32:48,408 - INFO - ✅ Scan #50 complete - Validated trades: 0
+2025-05-30 10:32:48,408 - INFO - --------------------------------------------------
+2025-05-30 10:32:48,408 - INFO - --------------------------------------------------
