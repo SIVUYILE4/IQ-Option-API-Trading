@@ -169,29 +169,16 @@ class IQOptionService:
         """Execute a trade"""
         if await self.connect():
             try:
-                # Try multiple trading methods
+                # Try OTC version first (these work!)
+                otc_asset = f"{asset}-OTC"
+                check, order_id = self.api.buy(amount, otc_asset, direction, duration)
+                if check:
+                    return {"success": True, "order_id": order_id, "asset_used": otc_asset}
                 
-                # Method 1: Traditional binary options
+                # Fallback to regular asset
                 check, order_id = self.api.buy(amount, asset, direction, duration)
                 if check:
-                    return {"success": True, "order_id": order_id, "method": "binary"}
-                
-                # Method 2: Digital options if binary fails
-                try:
-                    digital_result = self.api.buy_digital_spot(asset, amount, direction, duration)
-                    if digital_result and digital_result[0]:
-                        return {"success": True, "order_id": digital_result[1], "method": "digital"}
-                except Exception as digital_error:
-                    logging.info(f"Digital options not available: {digital_error}")
-                
-                # Method 3: Try with different durations
-                for alt_duration in [2, 5, 15]:
-                    try:
-                        check, alt_order_id = self.api.buy(amount, asset, direction, alt_duration)
-                        if check:
-                            return {"success": True, "order_id": alt_order_id, "method": f"binary_{alt_duration}m"}
-                    except:
-                        continue
+                    return {"success": True, "order_id": order_id, "asset_used": asset}
                 
                 return {"success": False, "error": str(order_id)}
             except Exception as e:
