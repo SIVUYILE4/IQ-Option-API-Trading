@@ -707,11 +707,8 @@ async def main():
                 # Create advanced features
                 features = advanced_ml.create_advanced_features(df)
                 
-                # Create profit-focused labels
-                labels, valid_mask = advanced_ml.create_profit_focused_labels(df)
-                
-                # Train advanced models
-                results = advanced_ml.train_advanced_models(features[valid_mask], labels[valid_mask])
+                # Train advanced models with the dataframe
+                results = advanced_ml.train_advanced_models(df)
                 
                 if results:
                     print("🚀 ADVANCED ML TRAINING COMPLETE!")
