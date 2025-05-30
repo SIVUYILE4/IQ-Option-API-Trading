@@ -477,21 +477,46 @@ async def get_market_data(asset: str, count: int = 100):
     return {"asset": asset, "data": [], "count": 0}
 
 @api_router.get("/strategy-signal/{asset}")
-async def get_strategy_signal(asset: str, strategy: str = "combined"):
-    """Get trading signal for an asset"""
-    candles = await iq_service.get_candles(asset, 60, 100)
+async def get_strategy_signal(asset: str, strategy: str = "ml_enhanced"):
+    """Get trading signal for an asset using ML-enhanced strategies"""
+    candles = await iq_service.get_candles(asset, 60, 200)
     
     if candles:
         df = pd.DataFrame(candles)
         df.columns = ['timestamp', 'open', 'high', 'low', 'close', 'volume']
         
-        signal = strategies.get_strategy_signal(asset, df, strategy)
-        
-        # Store signal in database
-        signal_dict = signal.dict()
-        await db.signals.insert_one(signal_dict)
-        
-        return signal.dict()
+        try:
+            if strategy == "ml_enhanced":
+                signal = await enhanced_strategies.ml_enhanced_strategy(asset, df)
+                return {
+                    "asset": signal.asset,
+                    "signal": signal.signal,
+                    "confidence": signal.confidence,
+                    "ml_probability": signal.ml_probability,
+                    "strategy_name": signal.strategy_name,
+                    "feature_importance": signal.feature_importance,
+                    "timestamp": signal.timestamp.isoformat()
+                }
+            elif strategy == "adaptive_ml":
+                signal = await enhanced_strategies.adaptive_ml_strategy(asset, df)
+                return {
+                    "asset": signal.asset,
+                    "signal": signal.signal,
+                    "confidence": signal.confidence,
+                    "ml_probability": signal.ml_probability,
+                    "strategy_name": signal.strategy_name,
+                    "feature_importance": signal.feature_importance,
+                    "timestamp": signal.timestamp.isoformat()
+                }
+            else:
+                # Fallback to traditional strategies
+                signal = strategies.get_strategy_signal(asset, df, strategy)
+                return signal.dict()
+        except Exception as e:
+            logging.error(f"Error in ML strategy for {asset}: {e}")
+            # Fallback to traditional
+            signal = strategies.get_strategy_signal(asset, df, "bollinger")
+            return signal.dict()
     
     return {"asset": asset, "signal": "hold", "confidence": 0.0, "strategy_name": strategy}
 
