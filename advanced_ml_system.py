@@ -347,14 +347,23 @@ class AdvancedMLTradingSystem:
         
         return labels[:-lookahead], valid_mask[:-lookahead]
     
-    def train_advanced_models(self, features, labels, asset="EURUSD"):
+    def train_advanced_models(self, df, asset="EURUSD"):
         """Train advanced ML ensemble with hyperparameter optimization"""
         logger.info(f"🚀 Training advanced ML ensemble for {asset}...")
         
-        # Remove uncertain cases
-        labels_clean, valid_mask = self.create_profit_focused_labels(features, 1, 0.0002)
+        # Create features and labels together
+        features = self.create_advanced_features(df)
+        labels, valid_mask = self.create_profit_focused_labels(df, 1, 0.0002)
+        
+        # Align features and labels
+        min_length = min(len(features), len(labels))
+        features = features.iloc[:min_length]
+        labels = labels[:min_length]
+        valid_mask = valid_mask[:min_length]
+        
+        # Apply valid mask
         features_clean = features[valid_mask]
-        labels_clean = labels_clean[valid_mask]
+        labels_clean = labels[valid_mask]
         
         if len(features_clean) < 100:
             logger.warning("Insufficient clean data for training")
