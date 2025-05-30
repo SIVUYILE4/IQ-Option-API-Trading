@@ -148,9 +148,9 @@ class MLTradingSystem:
         features_df['atr'] = ta.volatility.AverageTrueRange(features_df['high'], features_df['low'], features_df['close']).average_true_range()
         features_df['atr_ratio'] = features_df['atr'] / features_df['close']
         
-        # Volume indicators
+        # Volume indicators (simplified)
         if 'volume' in features_df.columns and features_df['volume'].sum() > 0:
-            features_df['volume_sma'] = ta.volume.VolumeSMAIndicator(features_df['close'], features_df['volume']).volume_sma()
+            features_df['volume_sma'] = features_df['volume'].rolling(20).mean()
             features_df['volume_ratio'] = features_df['volume'] / features_df['volume'].rolling(20).mean()
         
         # Price momentum features
