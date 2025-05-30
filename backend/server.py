@@ -322,33 +322,51 @@ class TradingStrategies:
         return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Trend")
 
     def combined_strategy(self, data: pd.DataFrame) -> StrategySignal:
-        """Combine multiple strategies for higher accuracy"""
+        """Combine multiple strategies for higher accuracy - OPTIMIZED VERSION"""
         if len(data) < 50:
             return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Combined")
         
-        # Get signals from all strategies
-        rsi_signal = self.rsi_strategy(data)
+        # Get signals from profitable strategies only (based on backtesting)
+        bollinger_signal = self.bollinger_strategy(data)
         macd_signal = self.macd_strategy(data)
-        bb_signal = self.bollinger_strategy(data)
+        
+        # Only use trend if it has reasonable confidence
         trend_signal = self.trend_following_strategy(data)
         
-        signals = [rsi_signal, macd_signal, bb_signal, trend_signal]
+        # Weighted approach based on backtesting performance
+        signals = []
         
-        # Count votes for each direction
+        # Bollinger Bands (best performer): weight 0.4
+        if bollinger_signal.confidence > 0.5:
+            signals.extend([bollinger_signal] * 4)
+        
+        # MACD (second best): weight 0.3  
+        if macd_signal.confidence > 0.5:
+            signals.extend([macd_signal] * 3)
+        
+        # Trend (if confident): weight 0.3
+        if trend_signal.confidence > 0.6:
+            signals.extend([trend_signal] * 3)
+        
+        if not signals:
+            return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Combined_Optimized")
+        
+        # Count weighted votes
         call_votes = sum(1 for s in signals if s.signal == "call")
         put_votes = sum(1 for s in signals if s.signal == "put")
+        total_votes = len(signals)
         
-        # Calculate weighted confidence
-        call_confidence = sum(s.confidence for s in signals if s.signal == "call") / max(call_votes, 1)
-        put_confidence = sum(s.confidence for s in signals if s.signal == "put") / max(put_votes, 1)
+        # Calculate confidence based on consensus and individual confidences
+        if call_votes > put_votes and call_votes >= total_votes * 0.6:  # 60% consensus required
+            avg_confidence = sum(s.confidence for s in signals if s.signal == "call") / call_votes
+            final_confidence = min(0.9, avg_confidence * (call_votes / total_votes))
+            return StrategySignal(asset="", signal="call", confidence=final_confidence, strategy_name="Combined_Optimized")
+        elif put_votes > call_votes and put_votes >= total_votes * 0.6:
+            avg_confidence = sum(s.confidence for s in signals if s.signal == "put") / put_votes
+            final_confidence = min(0.9, avg_confidence * (put_votes / total_votes))
+            return StrategySignal(asset="", signal="put", confidence=final_confidence, strategy_name="Combined_Optimized")
         
-        # Require at least 3 out of 4 strategies to agree for high confidence
-        if call_votes >= 3 and call_confidence > 0.7:
-            return StrategySignal(asset="", signal="call", confidence=min(0.95, call_confidence + 0.1), strategy_name="Combined_Call")
-        elif put_votes >= 3 and put_confidence > 0.7:
-            return StrategySignal(asset="", signal="put", confidence=min(0.95, put_confidence + 0.1), strategy_name="Combined_Put")
-        
-        return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Combined")
+        return StrategySignal(asset="", signal="hold", confidence=0.0, strategy_name="Combined_Optimized")
 
     def get_strategy_signal(self, asset: str, data: pd.DataFrame, strategy: str = "combined") -> StrategySignal:
         """Get trading signal based on selected strategy"""
