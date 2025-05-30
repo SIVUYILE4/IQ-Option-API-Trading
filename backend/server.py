@@ -525,7 +525,7 @@ async def execute_trade(trade_request: TradeRequest):
     """Execute a trade based on strategy signal"""
     try:
         # Get current signal
-        candles = await iq_service.get_candles(trade_request.asset, 60, 100)
+        candles = await iq_service.get_candles(trade_request.asset, 60, 200)
         
         if not candles:
             raise HTTPException(status_code=400, detail="Unable to get market data")
@@ -534,12 +534,31 @@ async def execute_trade(trade_request: TradeRequest):
         df.columns = ['timestamp', 'open', 'high', 'low', 'close', 'volume']
         
         # Get strategy signal
-        signal = strategies.get_strategy_signal(trade_request.asset, df, trade_request.strategy)
+        if trade_request.strategy in ["adaptive_ml", "ml_enhanced"]:
+            try:
+                if trade_request.strategy == "adaptive_ml":
+                    signal = await enhanced_strategies.adaptive_ml_strategy(trade_request.asset, df)
+                else:
+                    signal = await enhanced_strategies.ml_enhanced_strategy(trade_request.asset, df)
+                
+                signal_dict = {
+                    "signal": signal.signal,
+                    "confidence": signal.confidence,
+                    "strategy_name": signal.strategy_name
+                }
+            except Exception as e:
+                logger.error(f"ML strategy error: {e}")
+                # Fallback to traditional
+                signal = strategies.get_strategy_signal(trade_request.asset, df, "bollinger")
+                signal_dict = signal.dict()
+        else:
+            signal = strategies.get_strategy_signal(trade_request.asset, df, trade_request.strategy)
+            signal_dict = signal.dict()
         
-        if signal.signal == "hold" or signal.confidence < 0.7:
+        if signal_dict["signal"] == "hold" or signal_dict["confidence"] < 0.7:
             return {
                 "success": False,
-                "message": f"No high-confidence signal. Signal: {signal.signal}, Confidence: {signal.confidence:.2f}"
+                "message": f"No high-confidence signal. Signal: {signal_dict['signal']}, Confidence: {signal_dict['confidence']:.2f}"
             }
         
         # Execute trade if auto_trade is enabled
@@ -547,7 +566,7 @@ async def execute_trade(trade_request: TradeRequest):
             result = await iq_service.execute_trade(
                 trade_request.asset,
                 trade_request.amount,
-                signal.signal,
+                signal_dict["signal"],
                 1  # 1 minute duration
             )
             
@@ -556,10 +575,10 @@ async def execute_trade(trade_request: TradeRequest):
                 trade = Trade(
                     asset=trade_request.asset,
                     amount=trade_request.amount,
-                    direction=signal.signal,
+                    direction=signal_dict["signal"],
                     duration=1,
-                    strategy=signal.strategy_name,
-                    confidence=signal.confidence,
+                    strategy=signal_dict["strategy_name"],
+                    confidence=signal_dict["confidence"],
                     status="executed"
                 )
                 
@@ -584,7 +603,7 @@ async def execute_trade(trade_request: TradeRequest):
         else:
             return {
                 "success": True,
-                "signal": signal.dict(),
+                "signal": signal_dict,
                 "message": "Signal generated. Set auto_trade=true to execute."
             }
             

@@ -1,6 +1,6 @@
 ================================================================================
 🤖 IQOPTION TRADING SYSTEM - STATUS REPORT
-📅 2025-05-30 10:42:22 UTC
+📅 2025-05-30 10:43:23 UTC
 ================================================================================
 
 🏥 SYSTEM HEALTH:
@@ -8,7 +8,7 @@
   Account Balance: $37.07
   Frontend Status: healthy
   Backend Status: healthy
-  Validator Running: ✅ Active
+  Validator Running: ❌ Stopped
 
 📊 TRADING PERFORMANCE:
   Total Trades: 0
@@ -18,6 +18,7 @@
 
 📈 RECENT ACTIVITY (0 latest trades):
 
-✅ NO ACTIVE ALERTS
+🚨 ACTIVE ALERTS (1):
+  🔴 validator_stopped: Validated trader process not running
 
 ================================================================================
