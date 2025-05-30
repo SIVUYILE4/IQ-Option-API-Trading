@@ -1,0 +1,38 @@
+{
+  "report_type": "daily",
+  "date": "2025-05-30",
+  "generated_at": "2025-05-30T10:07:15.789483",
+  "summary": {
+    "trades_today": 0,
+    "profit_today": 0,
+    "win_rate_today": 0,
+    "system_uptime": "0%",
+    "alerts_count": 0
+  },
+  "details": {
+    "performance": [
+      {
+        "date": "2025-05-30",
+        "total_trades": 0,
+        "winning_trades": 0,
+        "losing_trades": 0,
+        "win_rate": 0.0,
+        "daily_profit": 0.0,
+        "total_profit": 0.0,
+        "avg_confidence": 0.0,
+        "best_strategy": "Bollinger_EURUSD"
+      }
+    ],
+    "system_health": [
+      {
+        "timestamp": "2025-05-30T10:07:04.881231",
+        "api_connected": 1,
+        "balance": 37.07,
+        "frontend_status": "healthy",
+        "backend_status": "healthy",
+        "validator_running": 1
+      }
+    ],
+    "alerts": []
+  }
+}

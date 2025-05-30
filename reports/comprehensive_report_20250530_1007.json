@@ -1,0 +1,22 @@
+{
+  "report_type": "comprehensive",
+  "generated_at": "2025-05-30T10:07:16.056088",
+  "system_status": {
+    "api_connected": true,
+    "account_balance": 37.07,
+    "trading_mode": "PRACTICE"
+  },
+  "current_performance": {
+    "total_trades": 0,
+    "win_rate": 0,
+    "total_profit": 0,
+    "avg_profit_per_trade": 0,
+    "max_consecutive_wins": 0,
+    "max_consecutive_losses": 0,
+    "profit_factor": 0,
+    "sharpe_ratio": 0,
+    "max_drawdown": 0
+  },
+  "historical_summary": {
+    "days_tracked": 1,
+    "total_historical_trades": 
