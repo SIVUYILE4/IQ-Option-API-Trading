@@ -173,10 +173,12 @@ function App() {
   };
 
   const strategies = [
-    { value: 'combined', label: 'Combined Strategy (Highest Accuracy)' },
-    { value: 'rsi', label: 'RSI Strategy' },
-    { value: 'macd', label: 'MACD Strategy' },
+    { value: 'adaptive_ml', label: '🤖 Adaptive ML (Highest Accuracy)' },
+    { value: 'ml_enhanced', label: '🧠 ML Enhanced Strategy' },
+    { value: 'combined', label: 'Combined Traditional Strategy' },
     { value: 'bollinger', label: 'Bollinger Bands' },
+    { value: 'macd', label: 'MACD Strategy' },
+    { value: 'rsi', label: 'RSI Strategy' },
     { value: 'trend', label: 'Trend Following' }
   ];
 
