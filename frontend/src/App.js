@@ -19,7 +19,7 @@ function App() {
   const [performance, setPerformance] = useState({});
   const [autoTrading, setAutoTrading] = useState(false);
   const [tradeAmount, setTradeAmount] = useState(1);
-  const [selectedStrategy, setSelectedStrategy] = useState('combined');
+  const [selectedStrategy, setSelectedStrategy] = useState('adaptive_ml');
   const [loading, setLoading] = useState(false);
 
   // WebSocket connection for real-time data
