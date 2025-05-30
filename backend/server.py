@@ -169,11 +169,12 @@ class IQOptionService:
         """Execute a trade"""
         if await self.connect():
             try:
+                # Correct parameter order: price, ACTIVES, ACTION, expirations
                 check, order_id = self.api.buy(amount, asset, direction, duration)
                 if check:
                     return {"success": True, "order_id": order_id}
                 else:
-                    return {"success": False, "error": "Trade execution failed"}
+                    return {"success": False, "error": str(order_id)}
             except Exception as e:
                 logging.error(f"Error executing trade: {e}")
                 return {"success": False, "error": str(e)}
