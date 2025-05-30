@@ -555,7 +555,7 @@ async def execute_trade(trade_request: TradeRequest):
             signal = strategies.get_strategy_signal(trade_request.asset, df, trade_request.strategy)
             signal_dict = signal.dict()
         
-        if signal_dict["signal"] == "hold" or signal_dict["confidence"] < 0.7:
+        if signal_dict["signal"] == "hold" or signal_dict["confidence"] < 0.65:
             return {
                 "success": False,
                 "message": f"No high-confidence signal. Signal: {signal_dict['signal']}, Confidence: {signal_dict['confidence']:.2f}"
