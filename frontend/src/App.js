@@ -292,10 +292,28 @@ function App() {
                     <div className="text-2xl font-bold">{formatConfidence(currentSignal.confidence)}</div>
                   </div>
                   
+                  {currentSignal.ml_probability && (
+                    <div>
+                      <div className="text-sm text-gray-600">ML Probability</div>
+                      <div className="text-lg font-semibold">{(currentSignal.ml_probability * 100).toFixed(1)}%</div>
+                    </div>
+                  )}
+                  
                   <div>
                     <div className="text-sm text-gray-600">Strategy</div>
                     <div className="text-sm font-medium">{currentSignal.strategy_name}</div>
                   </div>
+
+                  {currentSignal.feature_importance && currentSignal.feature_importance.length > 0 && (
+                    <div className="mt-3">
+                      <div className="text-sm text-gray-600 mb-1">Key Factors</div>
+                      {currentSignal.feature_importance.slice(0, 3).map((factor, index) => (
+                        <div key={index} className="text-xs text-gray-500">
+                          • {factor.feature}: {factor.importance}
+                        </div>
+                      ))}
+                    </div>
+                  )}
 
                   {currentSignal.confidence >= 0.7 && (
                     <div className="bg-green-50 border border-green-200 rounded-md p-3">
