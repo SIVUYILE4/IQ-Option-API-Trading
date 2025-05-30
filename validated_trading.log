@@ -491,11 +491,12 @@
 2025-05-30 10:32:31,106 - INFO - 💤 No validated opportunities found (high standards)
 2025-05-30 10:32:31,106 - INFO - ✅ Scan #71 complete - Validated trades: 0
 2025-05-30 10:32:31,106 - INFO - --------------------------------------------------
-025-05-30 10:14:24,730 - WARNING - Trade failed: Trade execution failed: Trade execution failed
-2025-05-30 10:14:25,113 - WARNING - Trade failed: Trade execution failed: Trade execution failed
-2025-05-30 10:14:25,113 - WARNING - Trade failed: Trade execution failed: Trade execution failed
-2025-05-30 10:14:25,113 - INFO - ✅ Scan #15 complete - Validated trades: 0
-2025-05-30 10:14:25,113 - INFO - ✅ Scan #15 complete - Validated trades: 0
+2025-05-30 10:33:01,274 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:33:01,276 - INFO - 🔍 Validated Scan #72
+2025-05-30 10:33:02,021 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:33:02,021 - INFO - ✅ Scan #72 complete - Validated trades: 0
+2025-05-30 10:33:02,021 - INFO - --------------------------------------------------
+-05-30 10:14:25,113 - INFO - ✅ Scan #15 complete - Validated trades: 0
 2025-05-30 10:14:25,113 - INFO - --------------------------------------------------
 2025-05-30 10:14:25,113 - INFO - --------------------------------------------------
 2025-05-30 10:14:53,728 - INFO - ✅ Connected - Balance: $37.07
@@ -1145,3 +1146,8 @@
 2025-05-30 10:32:48,408 - INFO - ✅ Scan #50 complete - Validated trades: 0
 2025-05-30 10:32:48,408 - INFO - --------------------------------------------------
 2025-05-30 10:32:48,408 - INFO - --------------------------------------------------
+2025-05-30 10:33:01,274 - INFO - ✅ Connected - Balance: $37.07
+2025-05-30 10:33:01,276 - INFO - 🔍 Validated Scan #72
+2025-05-30 10:33:02,021 - INFO - 💤 No validated opportunities found (high standards)
+2025-05-30 10:33:02,021 - INFO - ✅ Scan #72 complete - Validated trades: 0
+2025-05-30 10:33:02,021 - INFO - --------------------------------------------------
