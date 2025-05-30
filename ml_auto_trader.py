@@ -29,7 +29,7 @@ class MLEnhancedAutoTrader:
         self.profitable_assets = ["EURUSD"]
         # Use ML-enhanced strategies
         self.ml_strategies = ["adaptive_ml", "ml_enhanced"]
-        self.confidence_threshold = 0.80  # High threshold for ML models
+        self.confidence_threshold = 0.70  # Lowered from 0.80 to get more trades
         self.trade_amount = 1.0
         self.session = None
         self.trades_executed = 0
